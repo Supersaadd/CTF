@@ -1,0 +1,3 @@
+Last login: Thu Mar 20 17:23:05 on ttys000
+(base) Saad@Saad-3 ~ % echo "U2FsdGVkX1+PsGJcILCSt39hKgyzic55mojKvDHHwFjM9HO7xhm8TQKxubNxP+fv" | openssl enc -d -aes-128-cbc -pbkdf2 -base64 -pass pass:"Saad.2003"
+kazoo blows jawed tansy miked%                                                  (base) Saad@Saad-3 ~ % 

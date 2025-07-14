@@ -1,0 +1,41 @@
+{"transaction": 
+{"data": "
+{\"cardholder\": \"Robert Price\", 
+\"card-number\": \"4106-5776-3038-8620\", 
+\"bank-name\": \"Allen, Parrish and Smith\", 
+\"currency\": \"EUR\", \"amount\": 833}", 
+"card": {"number": "4106-5776-3038-8620",
+
+"certificate": "-----BEGIN CERTIFICATE-----
+\nMIIBjTCCATSgAwIBAgIUNod5XwmJLHdq05Li4kKaCds2uskwCgYIKoZIzj0EAw
+Iw\nHjEcMBoGA1UEAwwTNDEwNi01Nzc2LTMwMzgtODYyMDAeFw0yNTAzMjEyMTI0
+MzZa\nFw0yNTA0MjAyMTI0MzZaMB4xHDAaBgNVBAMMEzQxMDYtNTc3Ni0zMDM4LT
+g2MjAw\nVjAQBgcqhkjOPQIBBgUrgQQACgNCAASzt6fIWpycUNoWxhVOoOAjcxXc
+eye85ZM+\nKXhJ2MZSluoYIsSimBoqDACskXKlcSFrdRoqvYZOvxtqcGBoovmZo1
+MwUTAdBgNV\nHQ4EFgQUiriiPnKeH2dGXwv+2JkXxciZDpowHwYDVR0jBBgwFoAU
+iriiPnKeH2dG\nXwv+2JkXxciZDpowDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQ
+QDAgNHADBEAiAt\ndHi42miyQRd76ACbHZ5RTHhGk/efZsz9YCcCioBr7QIgW04n
+jQFVp6aBwkyUjvD5\n/rJUqlA+iKlEKBEvHyS/juo=\n
+-----END CERTIFICATE-----\n", 
+
+"bank": {"name": "Allen, Parrish and Smith", 
+
+"certificate": "-----BEGIN CERTIFICATE-----
+\nMIICLjCCARagAwIBAgIUPt7s6sbqgIsrk12jk3FpJjC6Oh4wDQYJKoZIhvcNAQ
+EL\nBQAwETEPMA0GA1UEAwwGX19DQV9fMB4XDTI1MDMyMTIxMjQzNloXDTI2MDMy
+MTIx\nMjQzNlowIzEhMB8GA1UEAwwYQWxsZW4sIFBhcnJpc2ggYW5kIFNtaXRoMC
+owBQYD\nK2VwAyEA0Trvp+82UuHE6JNFwCKw44UnIGLQFX6dM2VAszRTSy+jZjBk
+MB0GA1Ud\nDgQWBBTVwP5oLMf85MMU8XtC//VmLcQgFjAfBgNVHSMEGDAWgBSOCD
+6NvSeus/JJ\n6p5syz1F69CSjjASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB
+/wQEAwIBhjAN\nBgkqhkiG9w0BAQsFAAOCAQEAXpuw+zKIQlcnEVyMl66gOKNxwo
+TqnmrloRe7sL7/\nAmEHd3VdGdUHtcTpe32drKt7fwBIbLIBtaJzbIFkPdW8Bkoj
+dWs5eMTLBc3ZuwDZ\nMXd6FQR3xLZp+HFwws4LC7IgwLrbezTI56SCTtFZL5uWW9
+dLJZ2FB/yjvs4ehwQi\nKrnVJDNTb0QX0VTwZgXXlDi1cIhIQ01bPcenhLwei3Oa
+aBdNTUNtKTRUJKwgPBhy\n+Lng+4Zn0NE2K0BvwuPOomBo/MncB6IBao9n+DVavf
+Ee/SbGPgaFEx/I0ICLc3I2\nFmL5dXcWqGJpeyP+sOVeK+VpBlZ5fNs3Kt+Q9yeU
+yQ7HWA==\n
+-----END CERTIFICATE-----\n"}}, 
+
+"signature": "3045022100c37cb8d200c10844cf6a4b096d335b8026e76c31dd864f3f9d5ecb8b2aef1a410220673e24d17daf4e621114cf424b83b8b675f7df8cc7640a01cb8239561b1ed88e", 
+"valid": false, "reason": 
+"Le certificat de la carte est auto-sign\u00e9."}}

@@ -1,0 +1,4 @@
+[ITEM DEBUG]>>> ascenseur
+ELEVATOR DISABLED BY SECURITY ENGINE
+[debug] censory-engine.is_active(world_id='36a951fd25aa094fec4ce1bd6f1bd508')
+[debug] power.is_active(world_id='36a951fd25aa094fec4ce1bd6f1bd508')

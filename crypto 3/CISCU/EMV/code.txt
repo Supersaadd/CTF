@@ -1,0 +1,11 @@
+Pour vérifier certificat de la banque : 
+    openssl verify -trusted certif_autorite.pem  certif_banque.pem
+
+Pour vérifier certificat de la carte : 
+    openssl verify -trusted certif_autorite.pem -untrusted certif_banque.pem certif_carte.pem
+
+Sortir la clé publique de la carte :
+    openssl x509 -pubkey -noout -in certif_carte.pem -out pk_carte.pem
+
+Vérifier la signature (bytes) : 
+    openssl dgst -sha256 -verify pk_carte.pem -signature signature.txt

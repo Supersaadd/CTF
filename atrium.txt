@@ -1,0 +1,3321 @@
+>>> regarder memento
+1. Dans le cadre de notre campagne de communication intitulée
+        "une sécurité maximale, mais avec la classe"
+   nous vous rappelons que tous les utilisateurs de ce bâtiment
+   doivent dorénavant avoir une clef publique RSA qui contient
+   la chaîne "+++ATRIUM+++".
+
+2. Cette chaîne promotionnelle doit se trouver à l'intérieur de la clef
+   publique ; en particulier, elle ne doit pas être ajoutée au bout d'une
+   clef pré-existante.  Autrement dit, ceci n'est pas autorisé :
+       -----BEGIN PUBLIC KEY-----
+       MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsHyqhsu3IxBYkCifvMrP
+       uM/uv0hfq0PHbCfrUxFYooWLm3M0rru5Q+9BKQXqBRLa9iO+Tgn8Sy9+ABz0EJVd
+       RRtatBkRj/UG3k+65UMxn5s47It+2sCXrX8TDmqPPtVa8Heo/5pqH1A/0LGj5YRo
+       8GT0/ITj40j3I+Kp/1a9qP6+5eAqvUHfpC/hro2OCBAOi4+Q8qB+Zrx3jCa1l4R4
+       0zQpvVf0nE+tjt7ZLBqlwKUnEWvVmFYJ3l/dikT9yG7s0UBOhAT8rZmwZVOluYeW
+       yuERSus5TJbN8V9XR8q1lk8o7WBxtpyJotf5l/cCdmVlL9cSaZhVx26cAEcZ496z
+       2QIDAQAB+++ATRIUM+++
+       -----END PUBLIC KEY-----
+
+3. Pour entrer dans le bâtiment ou dans les bureaux, il faut passer son
+   badge devant le lecteur NFC.  Le badge doit contenir la clef publique,
+   puis l'utilisateur doit réaliser une signature de manière interactive.
+
+4. Pour simplifier la gestion des clefs, les occupants du même bureau 
+   ont des clefs publiques RSA qui ont le même modulo (N).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Extended client detected!!!
+
+[Lower brain functions initialized]
+
+Vous êtes dans un local poubelle.  Il fait tout noir. Il y a des néons au
+plafond, mais ils sont éteints.  Seul un éclairage d'urgence de faible
+intensité, au niveau du sol, éclaire un peu la pièce.  Le sol et les murs
+sont couverts de carrelage, probablement pour faciliter le nettoyage. Une
+porte équipée d'une barre anti-panique donne sur une autre pièce.
+
+Ici se trouvent des déchets.
+Ici se trouve un conteneur-poubelle.
+Ici se trouve une inscription sur le sol.
+
+>>> sortir
+Vous êtes dans une sorte d'atelier, assez haut de plafond.  Toujours pas
+de fenêtre.  Malgré la faible intensité de l'éclairage d'urgence, vous
+distinguez une espèce de grande trappe dans le plafond.  Elle est fermée.
+Le mur ouest porte une inscription à moitié illisible à cause de l'obscurité :
+        _     _   _     ___  _     __ __ ____         __ _  _ _ _ _        _  
+   /    /  __/ ___|   __| |   | __  |    \        _   _| _ _ |          \ 
+    _    |              |     |  _  | |_)    /     |   |   |     |        
+ /  __    __  |_ _    __|    _|  ___   _ <  / _    | | | |     |_| |      
+ _     _\ ___  _  |__ __ _    |___ _ _| \_\ _/   \_\_    _  _| __ /|    _\
+
+En dessous, il y a une porte blindée bardée de panneaux avec des pictogrammes
+en forme d'éclair, de point d'exclamation, de tête de mort...  Et la mention : 
+"portez un casque et des lunettes de protection".  Vous avisez aussi deux autres 
+portes : une porte la mention "local poubelle" tandis que l'autre est surmontée 
+d'une lampe qui indique une sortie de secours.
+
+Ici se trouve un interrupteur sur le mur.
+Ici se trouve une inscription sur la porte blindée.
+
+>>> sortir
+Vous êtes dans un couloir très sombre, orienté nord-sud.  Sur un des murs 
+vous distinguez une rangée de néon éteints, mais l'éclairage d'urgence au 
+niveau du sol, lui, est opérationnel.  Au plafond, il y a des passages de 
+cables, des conduits d'aérations, des canalisations, etc.  Quelques portes 
+fermées à clef donnent on ne sait où.  Deux portes palières donnent sur les 
+extrémités nord et sud du couloir.  Il y a aussi une porte marquée "trappe 
+d'accès" au milieu du couloir (côté ouest).
+
+Ici se trouve un plan interactif.
+
+>>> ouest
+Vous êtes dans une sorte d'atelier, assez haut de plafond.  Toujours pas
+de fenêtre.  Malgré la faible intensité de l'éclairage d'urgence, vous
+distinguez une espèce de grande trappe dans le plafond.  Elle est fermée.
+Le mur ouest porte une inscription à moitié illisible à cause de l'obscurité :
+        _     _   _     ___  _     __ __ ____         __ _  _ _ _ _        _  
+   /    /  __/ ___|   __| |   | __  |    \        _   _| _ _ |          \ 
+    _    |              |     |  _  | |_)    /     |   |   |     |        
+ /  __    __  |_ _    __|    _|  ___   _ <  / _    | | | |     |_| |      
+ _     _\ ___  _  |__ __ _    |___ _ _| \_\ _/   \_\_    _  _| __ /|    _\
+
+En dessous, il y a une porte blindée bardée de panneaux avec des pictogrammes
+en forme d'éclair, de point d'exclamation, de tête de mort...  Et la mention : 
+"portez un casque et des lunettes de protection".  Vous avisez aussi deux autres 
+portes : une porte la mention "local poubelle" tandis que l'autre est surmontée 
+d'une lampe qui indique une sortie de secours.
+
+Ici se trouve un interrupteur sur le mur.
+Ici se trouve une inscription sur la porte blindée.
+
+>>> ouest
+Vous êtes dans une grande pièce complètement obscure.  Avec le peu de lumière qui 
+vient de l'extérieur, vous distinguez un gros fatras de machines étranges.  
+On dirait que des dispositifs expérimentaux de physique des particules ont 
+été entassés ici depuis des générations.  Là-dedans, vous distinguez quand 
+même quelques objets.  Il y a deux portes à l'est et à l'ouest surmontées de
+lampes indiquant une sortie de secours. 
+
+Ici se trouve un dispositif expérimental étrange au milieu de la pièce.
+Ici se trouve un pied-de-biche.
+Ici se trouve un terminal posé sur un bureau.
+
+>>> terminal
+
+Vous entendez un bruit électrique derrière vous.
+
+La machine bizarre qui se trouve au milieu de la pièce est maintenant sous tension !
+
+
+
+Vous ne reconnaissez plus la pièce où vous étiez.
+
+En fait, vous avez été téléporté ! Incroyable !
+
+Vous êtes sur une voie de desserte couverte orientée Nord-Sud qui vous évoque 
+un parking de centre commercial abandonné. Elle est suffisament grande pour 
+qu'un petit camion puisse passer.  Certaines dalles du faux plafond sont tombées.
+À certains endroits il s'est même complètement effondré.
+Vous apercevez un mur rouge et une grande porte en fer vers le sud.  À travers 
+on voit enfin la lumière du jour !  Le mur côté Est est en briques rouges, avec 
+des poteaux en béton blanc disposés régulièrement.  C'est très calme et très
+silencieux.  Une porte verrouillée porte le logo :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.            `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888888                         
+                                 .d88P888d888b.                   
+                             .od888P" 888P "Y88b                  
+                            d88P"     888    888                  
+                            888"      Y88b  d88P                 
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> sud
+Vous êtes en face d'une grande porte grillagée.  Au delà, vous apercevez la
+rue Jussieu et le restaurant "le buisson ardent".  La porte est fermée et 
+vous ne pouvez pas la franchir.  À côté de vous il y a un espace de parking 
+réservé au stationnement des pompiers.  Vous voyez quelques véhicules 
+circuler dans la rue, mais aucun piéton. 
+
+
+[security engine - INFO] status update
+                             subject: saad
+                             location:
+                               floor: SB
+>>> nord
+Vous êtes sur une voie de desserte couverte orientée Nord-Sud qui vous évoque 
+un parking de centre commercial abandonné. Elle est suffisament grande pour 
+qu'un petit camion puisse passer.  Certaines dalles du faux plafond sont tombées.
+À certains endroits il s'est même complètement effondré.
+Vous apercevez un mur rouge et une grande porte en fer vers le sud.  À travers 
+on voit enfin la lumière du jour !  Le mur côté Est est en briques rouges, avec 
+des poteaux en béton blanc disposés régulièrement.  C'est très calme et très
+silencieux.  Une porte verrouillée porte le logo :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.            `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888888                         
+                                 .d88P888d888b.                   
+                             .od888P" 888P "Y88b                  
+                            d88P"     888    888                  
+                            888"      Y88b  d88P                 
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Vous arrivez à une intersection entre une voie de circulation intérieure 
+orientée Nord-Sud et une autre qui part vers l'Est.  Un panneau "sortie" 
+pointe vers l'Est.  Une gaine de ventilation métallique passe près du faux 
+plafond, et vous entendez un bruit de soufflerie.  Une porte donne sur un
+autre local poubelle (encore un !).  Sur le mur a été peint en gros :
+                         
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                   888  d8P 888                  
+                                 .d88P d8P  888                  
+                             .od888P" d88   888                  
+                            d88P"     8888888888                 
+                            888"            888                 
+               Y,           888888888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> est
+Vous arrivez à une nouvelle intersection.  Au sud, il y aun grand passage 
+couvert ;  le sol et les murs y sont peint en blanc avec des rayures rouges 
+par endroit.  Un panneau y indique "accès pompiers tour centrale".  Des voies 
+de circulation couvertes partent aussi vers l'Est, l'Ouest et le Nord.  Un 
+bruit de ventilation est assez présent. Le mur au sud-ouest est en briques 
+rouges, celui au sud-ouest en brique noires.  Le mur Nord porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                 .d88P  d8P 888                  
+                                8888"  d8P  888                  
+                                 "Y8b.d88   888                  
+                            888    8888888888888                 
+                            Y88b  d88P      888                 
+               Y,            "Y8888P"       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> est
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en noir.  La sortie est flechée vers l'Est, et la vitesse limitée 
+à 15 Km/h.  Une petite intersection donne sur l'entrée d'un parking coté Sud.
+
+
+>>> est
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en blanc cassé à cet endroit.  À moins que ce ne soit de la 
+poussière créée par la circulation automobile qui se soit déposée sur les murs
+originellement blancs, on ne sait pas.  On entend toujours des bruits de 
+ventilation assez important. Vers le Sud, un passage conduit vers un cul-de-sac.
+Sur le mur nord, figure une grosse indication :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888     d8888           `8,
+               d'              d8P888    d8P888            `b
+                              d8P 888   d8P 888                  
+                             d8P  888  d8P  888                  
+                            d88   888 d88   888                  
+                            88888888888888888888                 
+                                  888       888                 
+               Y,                 888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Sur le même mur au Nord, deux portes sont entrouvertes, et elles portent la
+même indication en petit.
+
+
+[security engine - INFO] knowledge base update
+                             subject: saad
+                             nature: threat
+                             level: medium
+>>> nord
+Vous êtes dans une rotonde au milieu de laquelle se trouve la tour 44, peinte
+en rouge.  On entend le bruit d'une pompe depuis un local de plomberie voisin.
+Une porte donnant sur une salle de TME est entrouverte.
+
+Ici se trouve un ascenseur.
+
+>>> conseil
+Vous pouvez obtenir des indications avec cette commande.
+
+Sans argument, cette commande vous suggérera une tâche à accomplir.
+
+Avec le nom d'un objet en argument, la commande vous donnera des conseils de plus en
+plus précis pour vous aider à acquérir ou à utiliser l'objet en question.
+
+Si vous avez bien compris, vous pouvez ré-essayer.
+
+>>> conseil
+Les tâches les plus faciles sont au LPNHE.
+
+>>> sud
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en blanc cassé à cet endroit.  À moins que ce ne soit de la 
+poussière créée par la circulation automobile qui se soit déposée sur les murs
+originellement blancs, on ne sait pas.  On entend toujours des bruits de 
+ventilation assez important. Vers le Sud, un passage conduit vers un cul-de-sac.
+Sur le mur nord, figure une grosse indication :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888     d8888           `8,
+               d'              d8P888    d8P888            `b
+                              d8P 888   d8P 888                  
+                             d8P  888  d8P  888                  
+                            d88   888 d88   888                  
+                            88888888888888888888                 
+                                  888       888                 
+               Y,                 888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Sur le même mur au Nord, deux portes sont entrouvertes, et elles portent la
+même indication en petit.
+
+
+>>> ouest
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en noir.  La sortie est flechée vers l'Est, et la vitesse limitée 
+à 15 Km/h.  Une petite intersection donne sur l'entrée d'un parking coté Sud.
+
+
+[security engine - INFO] new security objective
+                             subject: saad
+                             objective: monitor
+>>> ouest
+Vous arrivez à une nouvelle intersection.  Au sud, il y aun grand passage 
+couvert ;  le sol et les murs y sont peint en blanc avec des rayures rouges 
+par endroit.  Un panneau y indique "accès pompiers tour centrale".  Des voies 
+de circulation couvertes partent aussi vers l'Est, l'Ouest et le Nord.  Un 
+bruit de ventilation est assez présent. Le mur au sud-ouest est en briques 
+rouges, celui au sud-ouest en brique noires.  Le mur Nord porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                 .d88P  d8P 888                  
+                                8888"  d8P  888                  
+                                 "Y8b.d88   888                  
+                            888    8888888888888                 
+                            Y88b  d88P      888                 
+               Y,            "Y8888P"       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> ouest
+Vous arrivez à une intersection entre une voie de circulation intérieure 
+orientée Nord-Sud et une autre qui part vers l'Est.  Un panneau "sortie" 
+pointe vers l'Est.  Une gaine de ventilation métallique passe près du faux 
+plafond, et vous entendez un bruit de soufflerie.  Une porte donne sur un
+autre local poubelle (encore un !).  Sur le mur a été peint en gros :
+                         
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                   888  d8P 888                  
+                                 .d88P d8P  888                  
+                             .od888P" d88   888                  
+                            d88P"     8888888888                 
+                            888"            888                 
+               Y,           888888888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Vous êtes sur une voie de circulation couverte orientée Nord-Sud.  Sur le mur 
+Ouest, une grande porte en fer bloque l'accès à une pièce obscure.  À côté se
+trouve un petit panneau indiquant : 
+                        "Trappe d'accès accélérateur".  
+Le faux plafond défoncé est un lointain écho des nombreux passages de camions 
+de livraison.  Côté Est, deux bâtiments délimitent un petit jardin non dénué de 
+charme et qu'on peut traverser.  En tout cas, ça fait du bien de voir la 
+lumière du jour !  À travers les fenêtres d'un des bâtiments on peut apercevoir 
+une batterie d'étranges machines.  En levant la tête on voit une passerelle 
+conduisant à l'espace de la vie étudiante, mais on ne peut pas y aller d'ici.
+
+
+>>> nord
+Vous êtes à une intersection.  La voie de circulation couverte part vers le 
+Nord et vers le Sud.  D'ici on peut traverser le petit jardinet qui se trouve 
+à l'Est, ou bien prendre le passage couvert abritant un parking à vélo qui se 
+trouve à l'Ouest.  Sur un mur, il a été peint en gros :
+                        
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888     .d88P                 
+                                 .d88P    8888"                  
+                             .od888P"      "Y8b.                 
+                            d88P"     888    888                 
+                            888"      Y88b  d88P                
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Ici de gros poteaux en bétons contraignent les véhicules à rester sur la voie
+de circulation couverte orientée Nord-Sud, tandis que les piétons peuvent 
+passer à travers pour aller dans le petit jardin qui se trouve à l'Ouest.
+Ici y a de petits bambous et quelques autres espèces de plantes.  On voit le
+ciel d'ici, ça change.  À travers les fenêtres des bâtiments, on voit 
+des machines-outils et des équipements expérimentaux de physique ou de chimie.
+
+
+>>> nord
+Ici, la voie de circulation couverte se termine par un cul de sac : elle donne 
+sur une grande porte en fer... qui est fermée.  Côté Est, les piétons peuvent 
+accéder à un petit jardinet d'où on voir le ciel.  Là se trouve l'entrée 
+d'un bâtiment.  Au-dessus de la porte un panneau annonce :
+                          L      P      N      H      E
+                            a      h      u      a      n 
+                            b      y      c      u      e
+                            o      s      l      t      r                       
+                            r      i      é      e      g                 
+                            a      q      a      s      i                 
+                            t      u      i             e                
+                            o      e      r             s                
+                            i             e                             
+                            r                                          
+                            e                                          
+ De l'autre côté, sur le mur une inscription est peinte :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888       888                 
+                                 .d88P     .d88P                 
+                             .od888P"  .od888P"                  
+                            d88P"     d88P"                      
+                            888"      888"                      
+               Y,           888888888 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> LPNHE
+Vous êtes dans le hall d'entrée du labo.  Cette pièce permet l'acceuil du
+public, de groupes scolaires, etc.  Il y a des posters de vulgarisation un
+peu partout.  Le guichet d'accueil est vacant.  Un couloir donne vers le sud.
+
+Ici se trouve un terminal à diposition du public.
+Ici se trouve un Poster explicatif.
+
+>>> terminal
+
+>>> plan
+
+>>> sud
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> sas
+Code incorrect.
+
+>>> RC-13
+Vous êtes dans un petit bureau de chercheur anonyme.  Pas d'affaires personnelles, 
+pas de déco.  En fait, il y a une table, une chaise, quelques affaires de travail 
+et c'est tout.
+
+Ici se trouve un post-it sur la porte.
+Ici se trouve un ordinateur fixe sur le bureau.
+Ici se trouve un feuillet imprimé.
+
+>>> regarder post-it
+Un post-it rose collé sur la porte.  Il dit :
+        aitana56, combien de fois t'ai-je dit de ne pas choisir ton mot de passe
+        dans le Cambridge English Dictionary ? Tu n'apprends jamais rien !
+        Comment je suis censé faire respecter une politique de securité, moi, tu y penses ?
+        ---
+        L'administrateur système
+
+>>> regarder ordinateur
+Un PC fixe tout droit issu du marché public passé par le CNRS auprès d'une
+grande firme de la tech qui fournit ce genre de produit en grande quantité.
+
+>>> feuillet
+Rien ne se passe...
+
+>>> regarder feuillet
+Une feuille A4, 80g/m².  Un utilisateur a imprimé dessus une trace du protocole 
+d'authentification CHAP.  Peut-être qu'il essayait de mettre au point un client
+personnalisé pour se connecter ? Il y a écrit :
+---> {"jsonrpc": "2.0", "method": "protagonist.CHAP-challenge", "params": {"world_id": "d6e3a1374f6455d9f5278d667232ee49", "username": "aitana56"}, "id": 556}
+<--- {"jsonrpc": "2.0", "result": "U2FsdGVkX1+4WL0yp/zjiG25yseGssVnXlY+iVe7qqFAN79DDY4+tMOxn51fCkT1\n", "id": 556}
+---> {"jsonrpc": "2.0", "method": "protagonist.CHAP-response", "params": {"world_id": "d6e3a1374f6455d9f5278d667232ee49", "response": "theme spang panty swabs whomp"}, "id": 557}
+<--- {"jsonrpc": "2.0", "result": null, "id": 557}
+
+>>> RC-14
+Impossible depuis cet endroit
+
+>>> sortir
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> RC-14
+Vous êtes dans un local de stockage, presque une sorte de débarras.  Le personnel
+du nettoyage y range aussi ses fournitures.
+
+Ici se trouve un coffre-fort.
+Ici se trouve un terminal de service.
+
+>>> terminal
+
+>>> coffre
+Vous n'allez pas essayer de l'ouvrir avec vos ongles.
+
+>>> sortir
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> RC-17
+Vous penetrez dans un petit bureau de chercheur plus chaleureux.  Il y a des 
+reproductions de gravures du maître japonais Utagawa Hiroshige (歌川広重), avec 
+de grandes vagues bleues et de superbes vues du mont Fuji en arrière-plan.
+
+Ici se trouve un brouillon d'un article de recherche.
+
+>>> brouillon
+Rien ne se passe...
+
+>>> regarder brouillon
+- Introduction
+- Généralités sur la mécanique quantique
+- Spécification de l'accélérateur de particules
+- Téléportation d'information quantique à puissance nominale
+- Conjecture : univers parallèles
+- Travaux à venir : téléportation de matière à puissance maxi
+- Conclusion et remerciements
+
+>>> regarder introduction
+Il n'y a pas de INTRODUCTION
+
+>>> sortur
+Il n'y a pas de SORTUR
+
+>>> sortir
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> RC-19
+Vous êtes dans un petit bureau de chercheur.  Il y a une machine a café et un petit 
+canapé.  C'est très cosy !
+
+Ici se trouve un terminal défectueux.
+
+>>> terminal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    UGLIX v4.0 beta                                     
+                               (LPNHE Research Terminal)                                
+
+                    Active user: saad
+
+ы└ы┬ь╠ы┼ы┘ ь╔ы┼ь╗ьЁы┬ы┘ь╖ы└ы┘ь╥ь╖ь╗ь╧ы┤ы┬ ь╗ь╗ьЁь╖ь╥ь╘ ы├ь╣ ь╢ы┐ы└ы┼ (ь╗ы┘ь╧ы├ы┴
+ьёы├ ь╖ы└ь╨ь╖ы┼ь╘ ы┤ы┼ ь╖ы└ь╢ы┐ы└ ы┬ы└ы┼ьЁ ь╖ы└ы┘ь╜ь╙ы┬ы┴) ы┬ы┼ы▐ьЁь╙ь╝ь╞ы┘ ы│ы┼
+ь╣ы├ь╖ь╧ь╖ь╙ ь╖ы└ы┘ь╥ь╖ь╗ь╧ ы┬ь╞ы┬ь╠ ь╖ы└ы├ь╢ь╠. ы┐ь╖ы├ ы└ы┬ь╠ы┼ы┘ ь╔ы┼ь╗ьЁы┬ы┘ 
+ы┬ы└ь╖ы┼ь╡ь╖ы└ ь╖ь╖ы▀ ьы└ы┘ь╧ыы└ы└ы├ь╣ ь╖ы└ь╢ы┐ы└ы┼ ы┘ы├ь╟ ь╖ы└ы┌ь╠ы├ ь╖ы└ь╝ь╖ы┘
+ьЁ ь╧ь╢ь╠ ь╧ы├ь╞ы┘ь╖ ы┌ь╖ы┘ь╙ ы┘ь╥ь╗ь╧ь╘ ы┘ь╛ы┤ы┬ы└ь╘ ь╗ь╠ь╣ ы┘ь╛ы┘ы┬ь╧ь╘ ы┘ы├ ь
+╖ы└ьёь╜ь╠ы│ ь╗ь╢ы┐ы└ ь╧ь╢ы┬ь╖ь╕ы┼ ьёь╝ь╟ь╙ы┤ь╖ ы┘ы├ ы├ь╣ь▄ ы└ь╙ы┐ы┬ы▒ы├ ы┐ь╙ы┼ы▒
+ь╗ ь╗ы┘ь╚ь╖ь╗ь╘ ь╞ы└ы┼ы└ ьёы┬ ы┘ь╠ь╛ь╧ ь╢ы┐ы└ы┼ ы└ы┤ь╟ы┤ ь╖ы└ьёь╜ь╠ы│. ь╝ы┘ьЁь╘ 
+ы┌ь╠ы┬ы├ ы┘ы├ ь╖ы└ь╡ы┘ы├ ы└ы┘ ь╙ы┌ь╤ы┼ ь╧ы└ы┴ ы┤ь╟ь╖ ь╖ы└ы├ь╣ь▄ ь╗ы└ ь╖ы├ы┤ ь╜ь╙
+ы┴ ь╣ь╖ь╠ ы┘ьЁь╙ь╝ь╞ы┘ь╖ы▀ ы┬ь╗ь╢ы┐ы└ы┤ ь╖ы└ьёь╣ы└ы┼ ы│ы┼ ь╖ы└ь╥ь╗ь╖ь╧ь╘ ы┬ь╖ы└ь
+╙ы├ь╤ы┼ь╞ ь╖ы└ь╔ы└ы┐ь╙ь╠ы┬ы├ы┼. ь╖ы├ь╙ь╢ь╠ ь╗ь╢ы┐ы└ ы┐ь╗ы┼ь╠ ы│ы┼ ьЁь╙ы┼ы├ы┼ы▒ь╖
+ь╙ ы┤ь╟ь╖ ь╖ы└ы┌ь╠ы├ ы┘ь╧ ь╔ь╣ь╞ь╖ь╠ ь╠ы┌ь╖ь╕ы┌ "ы└ы┼ь╙ь╠ь╖ьЁы┼ь╙"ь╖ы└ы┘ь╥ь╖ь╗ь╖
+ы└ь╗ы└ь╖ьЁь╙ы┼ы┐ы┼ь╘ ь╙ь╜ы┬ы┼ ы┘ы┌ь╖ь╥ь╧ ы┘ы├ ы┤ь╟ь╖ ь╖ы└ы├ь╣ь▄ ы┬ь╧ь╖ь╞ ы└ы┼ы├ь
+╙ь╢ь╠ ы┘ь╠ь╘ ьёь╝ь╠ы┴ ы┘ь╓ь╝ь╠ь╖ы▌ ы┘ь╧ ь╦ы┤ы┬ь╠ ь╗ь╠ь╖ы┘ь╛ ь╖ы└ы├ь╢ь╠ ь╖ы└ь╔ы└ы
+┐ь╙ь╠ыь╚ы┬ы├ы┼ ь╚ы└ "ьёы└ы┘ь╞ы┬ьЁ ь╗ь╖ы┼ь╛ ь╖ы┼┼ь╖ь╠ ы┐ь╠"ы┬ы▒ы├ы┬ь╖ы└ь╧ь╖ь╞ь╙ы┼
+ь╜ы┬ь╙ ьёы┼ь╤ь╖ы▀ ь╧ы└ы┴ ы├ь╖ы▌ Ёь╝ ы┘ы├ ы├ь╣ ы└ы┬ь╠ы┼ы┘ ь╔ы┼ь╗ьЁы┬ы┘
+
+*** Process received signal ***
+[UGLIX:04968] Signal: Segmentation fault (11)
+[UGLIX:04968] Signal code: Address not mapped (1)
+[UGLIX:04968] Failing at address: 0xb)
+
+Dumping core... 
+[Uglix Secure Vault Enclave]
+
+IV = 7164208358feb26c3a40ff2e603404b5
+
+mPX2MOlAE/JYEKGZXQam8x6j/TvzLIKidzwfxEEjQVp1uc09ax/0NpfXBhL1HWmr
+rT6t6IcdUnrrPjw/yoj+mvniS43acPGX/n9Vw9EYnLcRctLcM9qUyjJ5QGMjIODX
+DnB33TKllc6AiGvW28hqyvFgqgaofdKT+kOvvUAFu1GQyG41AR2DSx5X/wHWr6sJ
+xYgtv1qcHfs8GDRFsaWLRC/0XLtIeyd+H3Vx7qb7jp9mPTKJD3+7FPkRFTohxtC8
+xUSlhuVcVdh/fYZBzX7SlVZ/hh3dPpnuUMAG9R7IxODRz/loepOMScveAIYjp582
+EN4ypOjn2ZFH1qkgyROWPtV6SBz7kuEiay4dpvXkego28g3fRSGl6b2goUhixHkH
+JLxdl4QOVYWBnsI5xaJ3YH6uccl1sHqtoEpSq/pAC8Z8uR/qDYr/68H3s9DrVZ2S
+MJ/w78yTcpoknLoFRqh631KpRwd7JPZd59sbd1ryrDIwFUxnm6w2hlQDlLo+q9nK
+zcfHne1WS7cDR7ueqcfejirE7Ng0ADTLaelF3wXKpmBuwbW9Bt162N8Yxe9S6Zlz
+t6J1Ro+8+1I/dNFs2bbPFgzAJsu3aQz3uQVJ7urOEmvCIAPXwh5+RkrD+3sc0B6T
+rAI2v+hA3lvMlHgkqpJcZxVIwK3sOOsKKdOM2YVHF7C++FkxF5K0B2cTu4NmjmXu
+jO1YsBdHtUN2bPqPX7lQxIT6H9cfcHxWytqdnPz6uAZI+9rqgRvHJwAx7+P7b6Wr
+wHIghSo99HwUoNFEqlwG6fTGvxluhMSRSzfrf4PVPJZGSG9NJARYkBP7lXAlNGdI
+6PFlyKuJSumCvLI2HXw4u989dWjpxj/PTg48C28Y51oHCGF5IpYr4rUGAhM2Z7x2
+Vft6zrmc44KPrfOKg1L0LzZyyjsEoLiJg6ifB+omohJkoz8mMwKP2XYztuKwWWES
+v65toMmKqvRyJeEjj2SJuM11eHnIVwa3ioPqcsSmJwbmla5zRY+RJLU8gEDvcXNT
+Zj1NQYycgLriMSCXX4rga1Hfqy8tuOOkv2CpPW3kivh385llcjKyPrqzjjy2XNdD
+4y5xjQA2tAyDBcHW3GvDxeU/Z81JdbzuMEkxo7vPQmiy3FST67ZuNHA40uENG0Ck
+QngBYghIMjLQao0qcCexNxvB/cizbaiXw1uOezgf2ka23Eo+drnWMrsXdCyrhwwi
+nkzs/UK8CYjopWTEEzFCCx6IkycJXiNN1FYgtLCGjZ+chMNfzTAjKcLTNmKFPUxJ
+kbyrHbOnPERxvIIZwNBPi+wPgg/bkPAm6rbhRHRM7Y09KOIdOjv9GsQPLU+nmY37
+gYfJ/zA1dH1kaxSw0Owb9sa2dl68hQLApVj3G2suukZm3hXfqixlCruC5gZBq86D
+/nWCqABTzJ9E7SMH0+2a9ZTpDiLulT9wjq8WX32jrGruqOGMLTFrokVMQAVE24o+
+l5WvPkdpiUpp+yZZl8B7b8nLxzzqgeTywgyY2f2zlL9jcRmslX7lcDn3IgmTSrJw
+vVUdpz1ri3UrroQ0Fu5ziM5IhgH3chSFYPviXxGq892yWUkgu82RZ8oi68WUIbtr
+doMEXK6CgI3ewljpGPmn8RBDCIMeOj/tHm21T15kQE5NiIbEZYA8h1N1uZgsT+/j
+xQM0Kb7gNTYPCZK+fcxBaNLWUMB2pbP5raC+sRLA8NID2nVFEC5k02076r8RD5y3
+AOAIMvhvGdWit7cOEnA17JcFVHVga6ykjY3ZKC8HktMAW8/Tg9tmDwF3Bu+00pF/
+x+hTX3Kg08NiWfbmtfjSfbpuglmQckfPnir5XW/BtRJX5zDYVozl2QAaWGhKbrpW
+P4aevrn9Q9PPMQM3cH0ZL1lT63zmEd6/J/DlEFj8SXEz5LT5LFsiLyf7Xxe2uQkW
+hO1TzbHi3Ctd4BzWOQmwdy/zvzzdPb9w0l1EnFhXT61PKMbaXDX+xRrgvWSZOcPZ
+gHZrMNz/GBhD/k/p1loJs90eIxrXML1lqJbp7Gxd+u6nUwPEPYfrzm4SeWK8Gf2b
+
+
+>>> conseil terminak-l
+Il n'y a pas de TERMINAK-L
+Les tâches les plus faciles sont au LPNHE.
+
+>>> conseil terminal
+Avez-vous lu la spécification du Uglix Secure Vault à la bibliothèque ?
+
+>>> conseil sas
+Il n'y a pas de SAS
+Les tâches les plus faciles sont au LPNHE.
+
+>>> sortir
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> conseil sas
+Je ne sais vraiment pas quoi vous dire.
+
+>>> conseil sas
+Je ne sais vraiment pas quoi vous dire.
+
+>>> sortir
+Impossible depuis cet endroit
+
+>>> nrod
+Il n'y a pas de NROD
+
+>>> nord
+Vous êtes dans le hall d'entrée du labo.  Cette pièce permet l'acceuil du
+public, de groupes scolaires, etc.  Il y a des posters de vulgarisation un
+peu partout.  Le guichet d'accueil est vacant.  Un couloir donne vers le sud.
+
+Ici se trouve un terminal à diposition du public.
+Ici se trouve un Poster explicatif.
+
+>>> regarder poster
+Il s'agit d'une affiche de propagande à destination du grand public qui
+visiterait le labo et qui s'intéresserait au terminal juste à côté.
+      
+      "ce dispositif innovant communique grâce à la téléportation
+       d'information quantique --- il est relié directement à nos 
+       dispositifs de pointe installés au sous-sol.  Si des dimensions 
+       parallèles existaient, les modèles actuels de la physique 
+       prédisent qu'on pourrait communiquer avec grâce à ce procédé !".
+
+>>> plan
+
+>>> sortir
+Ici, la voie de circulation couverte se termine par un cul de sac : elle donne 
+sur une grande porte en fer... qui est fermée.  Côté Est, les piétons peuvent 
+accéder à un petit jardinet d'où on voir le ciel.  Là se trouve l'entrée 
+d'un bâtiment.  Au-dessus de la porte un panneau annonce :
+                          L      P      N      H      E
+                            a      h      u      a      n 
+                            b      y      c      u      e
+                            o      s      l      t      r                       
+                            r      i      é      e      g                 
+                            a      q      a      s      i                 
+                            t      u      i             e                
+                            o      e      r             s                
+                            i             e                             
+                            r                                          
+                            e                                          
+ De l'autre côté, sur le mur une inscription est peinte :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888       888                 
+                                 .d88P     .d88P                 
+                             .od888P"  .od888P"                  
+                            d88P"     d88P"                      
+                            888"      888"                      
+               Y,           888888888 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> plan
+
+>>> est
+Vous êtes au pied d'une tour sur laquelle est écrit :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P       888                 
+                                8888"      .d88P                 
+                                 "Y8b. .od888P"                  
+                            888    888d88P"                      
+                            Y88b  d88P888"                      
+               Y,            "Y8888P" 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici, la voie de circulation se termine par un cul de sac : elle est barrée
+par une grande porte en fer qui est verrouillée.  Côté Ouest se trouve un
+petit jardinet de bambous avec de petits arbres.  À travers les fenêtres 
+des bâtiments adjascents, vous voyez de gros équipements expérimentaux de 
+physique ou de chimie, vous  ne savez pas.  Sur une porte fermée, un panneau
+proclame : "Accès interdit sans autorisation" et "Si vous devez intervenir 
+SEUL à l'intérieur de cette salle EQUIPEZ-VOUS de l'emetteur d'alarme DATI".   
+
+Ici se trouve un ascenseur.
+
+>>> sud
+La voie de circulation couverte continue vers le Nord et vers le Sud.  À l'Est 
+se trouve un mur en béton désespérément gris.  Vers l'Ouest, on peut traverser 
+un petit jardinet pentu dans lequel prospèrent bambous, lierre et autres mousses. 
+
+Ici se trouve un graffiti sur un pilier.
+
+>>> sud
+Vous êtes à une intersection.  De gros poteaux en béton contraignent les 
+véhicules à rester sur la voie de circulation couverte orientée Nord-Sud, 
+mais les piétons eux peuvent emprunter le passage couvert qui conduit vers 
+une cour côté Est, ou bien aller dans le petit jardinet où poussent quelques 
+bouleaux côté Ouest.  Un mur peint en gris porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P     .d88P                 
+                                8888"     8888"                  
+                                 "Y8b.     "Y8b.                 
+                            888    888888    888                 
+                            Y88b  d88PY88b  d88P                
+               Y,            "Y8888P"  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> plan
+
+>>> est
+Vous êtes dans une cour en longueur avec des dalles en granite.  Des bancs, 
+en granite eux aussi, alternent en quinconce avec des bouleaux au pied desquels
+pousse du lierre.  Ici, on voit le ciel, et même un petit bout de la tour 
+centrale.  Au Nord, le mur est recouvert de lierre, et il est traversé par un 
+passage qui conduit vers le Tipi.  Dans cette direction, à travers certaines 
+fenêtres on voit des équipements de physique ou de chimie.  Côté Sud, on voit 
+la bibliothèque à travers les baies vitrées.  Un autre passage couvert conduit 
+vers l'Est.  Juste à côté, un escalier qui conduisait à l'étage du dessus a 
+été démonté et gît par terre.  En regardant vers le haut, on voit la tour 43 
+vers le Nord-Est et la tour 33 vers le Nord-Ouest.  Un dernier passage couvert 
+conduit vers l'Ouest.
+
+
+>>> nord
+Le passage couvert donne sur la cour du Tipi.  Il se termine par une grille de 
+chantier facile à franchir.  Mais la cour du tipi elle-même est un cul de sac, 
+et le tipi est fermé.
+
+
+>>> sud
+Vous êtes dans une cour en longueur avec des dalles en granite.  Des bancs, 
+en granite eux aussi, alternent en quinconce avec des bouleaux au pied desquels
+pousse du lierre.  Ici, on voit le ciel, et même un petit bout de la tour 
+centrale.  Au Nord, le mur est recouvert de lierre, et il est traversé par un 
+passage qui conduit vers le Tipi.  Dans cette direction, à travers certaines 
+fenêtres on voit des équipements de physique ou de chimie.  Côté Sud, on voit 
+la bibliothèque à travers les baies vitrées.  Un autre passage couvert conduit 
+vers l'Est.  Juste à côté, un escalier qui conduisait à l'étage du dessus a 
+été démonté et gît par terre.  En regardant vers le haut, on voit la tour 43 
+vers le Nord-Est et la tour 33 vers le Nord-Ouest.  Un dernier passage couvert 
+conduit vers l'Ouest.
+
+
+>>> est
+Vous êtes dans un petit passage couvert qui sépare deux cours.  Au Sud, une
+porte vitrée donne sur le hall d'entrée de la bibliothèque.  En face, un 
+passage donne sur une rotonde qui ceinture le pied d'une tour peinte en rouge
+et marquée :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888  .d8888b.           `8,
+               d'              d8P888 d88P  Y88b           `b
+                              d8P 888      .d88P                 
+                             d8P  888     8888"                  
+                            d88   888      "Y8b.                 
+                            8888888888888    888                 
+                                  888 Y88b  d88P                
+               Y,                 888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Impossible depuis cet endroit
+
+>>> plan
+
+>>> sud
+Vous êtes dans le hall d'entrée de la bibliothèque des licences.  Vous voyez
+l'intérieur à travers les portes vitrées qui vous en séparent : il n'y a personne.  
+Les portes sont fermées et vous ne pouvez pas entrer.  L'éclairage est tamisé et
+les bancs en mousse rouge et mauves sont étonnamment confortables.  Ca vous donne
+envie d'y faire une petite sieste, mais le distributeur de friandise à l'Est du
+hall fait un bruit désagréable.
+
+Ici se trouve un distributeur de friandises et de gadgets.
+Ici se trouve un catalogue électronique.
+
+>>> catalogue
+
+>>> nord
+Vous êtes dans un petit passage couvert qui sépare deux cours.  Au Sud, une
+porte vitrée donne sur le hall d'entrée de la bibliothèque.  En face, un 
+passage donne sur une rotonde qui ceinture le pied d'une tour peinte en rouge
+et marquée :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888  .d8888b.           `8,
+               d'              d8P888 d88P  Y88b           `b
+                              d8P 888      .d88P                 
+                             d8P  888     8888"                  
+                            d88   888      "Y8b.                 
+                            8888888888888    888                 
+                                  888 Y88b  d88P                
+               Y,                 888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> ouest
+Vous êtes dans une cour en longueur avec des dalles en granite.  Des bancs, 
+en granite eux aussi, alternent en quinconce avec des bouleaux au pied desquels
+pousse du lierre.  Ici, on voit le ciel, et même un petit bout de la tour 
+centrale.  Au Nord, le mur est recouvert de lierre, et il est traversé par un 
+passage qui conduit vers le Tipi.  Dans cette direction, à travers certaines 
+fenêtres on voit des équipements de physique ou de chimie.  Côté Sud, on voit 
+la bibliothèque à travers les baies vitrées.  Un autre passage couvert conduit 
+vers l'Est.  Juste à côté, un escalier qui conduisait à l'étage du dessus a 
+été démonté et gît par terre.  En regardant vers le haut, on voit la tour 43 
+vers le Nord-Est et la tour 33 vers le Nord-Ouest.  Un dernier passage couvert 
+conduit vers l'Ouest.
+
+
+>>> ouest
+Vous êtes à une intersection.  De gros poteaux en béton contraignent les 
+véhicules à rester sur la voie de circulation couverte orientée Nord-Sud, 
+mais les piétons eux peuvent emprunter le passage couvert qui conduit vers 
+une cour côté Est, ou bien aller dans le petit jardinet où poussent quelques 
+bouleaux côté Ouest.  Un mur peint en gris porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P     .d88P                 
+                                8888"     8888"                  
+                                 "Y8b.     "Y8b.                 
+                            888    888888    888                 
+                            Y88b  d88PY88b  d88P                
+               Y,            "Y8888P"  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> ouest
+Vous êtes à une intersection.  La voie de circulation couverte part vers le 
+Nord et vers le Sud.  D'ici on peut traverser le petit jardinet qui se trouve 
+à l'Est, ou bien prendre le passage couvert abritant un parking à vélo qui se 
+trouve à l'Ouest.  Sur un mur, il a été peint en gros :
+                        
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888     .d88P                 
+                                 .d88P    8888"                  
+                             .od888P"      "Y8b.                 
+                            d88P"     888    888                 
+                            888"      Y88b  d88P                
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Ici de gros poteaux en bétons contraignent les véhicules à rester sur la voie
+de circulation couverte orientée Nord-Sud, tandis que les piétons peuvent 
+passer à travers pour aller dans le petit jardin qui se trouve à l'Ouest.
+Ici y a de petits bambous et quelques autres espèces de plantes.  On voit le
+ciel d'ici, ça change.  À travers les fenêtres des bâtiments, on voit 
+des machines-outils et des équipements expérimentaux de physique ou de chimie.
+
+
+>>> sud
+Vous êtes à une intersection.  La voie de circulation couverte part vers le 
+Nord et vers le Sud.  D'ici on peut traverser le petit jardinet qui se trouve 
+à l'Est, ou bien prendre le passage couvert abritant un parking à vélo qui se 
+trouve à l'Ouest.  Sur un mur, il a été peint en gros :
+                        
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888     .d88P                 
+                                 .d88P    8888"                  
+                             .od888P"      "Y8b.                 
+                            d88P"     888    888                 
+                            888"      Y88b  d88P                
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> ouest
+Vous êtes dans une petite cour en longueur.  Le sol est formé d'une alternance
+de dalles de granite et de dalle de verre qui abritent un système d'éclairage.
+Au sud se trouve une bilbiothèque, mais elle est fermée.  Les murs Nord et 
+Ouest sont recouverts de végétation.  Côté Ouest, vous apercevez des immeubles 
+d'habitation derrière les marroniers de la rue des Fossés Saint-Bernard.  Il 
+devait y avoir un escalier conduisant au niveau supérieur ici avant, mais il
+a manifestement été retiré, si vous en jugez par les restes que vous voyez.
+
+
+>>> est
+Vous êtes à une intersection.  La voie de circulation couverte part vers le 
+Nord et vers le Sud.  D'ici on peut traverser le petit jardinet qui se trouve 
+à l'Est, ou bien prendre le passage couvert abritant un parking à vélo qui se 
+trouve à l'Ouest.  Sur un mur, il a été peint en gros :
+                        
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888     .d88P                 
+                                 .d88P    8888"                  
+                             .od888P"      "Y8b.                 
+                            d88P"     888    888                 
+                            888"      Y88b  d88P                
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> sud
+Vous êtes sur une voie de circulation couverte orientée Nord-Sud.  Sur le mur 
+Ouest, une grande porte en fer bloque l'accès à une pièce obscure.  À côté se
+trouve un petit panneau indiquant : 
+                        "Trappe d'accès accélérateur".  
+Le faux plafond défoncé est un lointain écho des nombreux passages de camions 
+de livraison.  Côté Est, deux bâtiments délimitent un petit jardin non dénué de 
+charme et qu'on peut traverser.  En tout cas, ça fait du bien de voir la 
+lumière du jour !  À travers les fenêtres d'un des bâtiments on peut apercevoir 
+une batterie d'étranges machines.  En levant la tête on voit une passerelle 
+conduisant à l'espace de la vie étudiante, mais on ne peut pas y aller d'ici.
+
+
+>>> trappe
+Il n'y a pas de TRAPPE
+
+>>> sud
+Vous arrivez à une intersection entre une voie de circulation intérieure 
+orientée Nord-Sud et une autre qui part vers l'Est.  Un panneau "sortie" 
+pointe vers l'Est.  Une gaine de ventilation métallique passe près du faux 
+plafond, et vous entendez un bruit de soufflerie.  Une porte donne sur un
+autre local poubelle (encore un !).  Sur le mur a été peint en gros :
+                         
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                   888  d8P 888                  
+                                 .d88P d8P  888                  
+                             .od888P" d88   888                  
+                            d88P"     8888888888                 
+                            888"            888                 
+               Y,           888888888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Vous êtes sur une voie de circulation couverte orientée Nord-Sud.  Sur le mur 
+Ouest, une grande porte en fer bloque l'accès à une pièce obscure.  À côté se
+trouve un petit panneau indiquant : 
+                        "Trappe d'accès accélérateur".  
+Le faux plafond défoncé est un lointain écho des nombreux passages de camions 
+de livraison.  Côté Est, deux bâtiments délimitent un petit jardin non dénué de 
+charme et qu'on peut traverser.  En tout cas, ça fait du bien de voir la 
+lumière du jour !  À travers les fenêtres d'un des bâtiments on peut apercevoir 
+une batterie d'étranges machines.  En levant la tête on voit une passerelle 
+conduisant à l'espace de la vie étudiante, mais on ne peut pas y aller d'ici.
+
+
+>>> plan
+
+>>> est
+Ici la voie de circulation couverte orientée Nors-Sud donne partiellement sur 
+l'extérieur : les piétons peuvent traverser un petit jardinet vers l'Ouest.  
+Quelques arbres et de petits bambous y poussent au milieu de coquilages broyés 
+qui servent à empêcher les mauvaises herbes.  On voit le ciel d'ici, mais tous 
+les bâtiments qu'on peut voir en levant la tête ont le même aspect gris et 
+tristounet.  Vous distinguez des passerelles qui conduisent à l'étage 
+supérieur d'un bâtiment qui a l'air préfabriqué au Nord-Ouest, mais il 
+faudrait être au niveau du dessus pour les emprunter.
+
+
+>>> nord
+Vous êtes à une intersection.  De gros poteaux en béton contraignent les 
+véhicules à rester sur la voie de circulation couverte orientée Nord-Sud, 
+mais les piétons eux peuvent emprunter le passage couvert qui conduit vers 
+une cour côté Est, ou bien aller dans le petit jardinet où poussent quelques 
+bouleaux côté Ouest.  Un mur peint en gris porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P     .d88P                 
+                                8888"     8888"                  
+                                 "Y8b.     "Y8b.                 
+                            888    888888    888                 
+                            Y88b  d88PY88b  d88P                
+               Y,            "Y8888P"  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> est
+Vous êtes dans une cour en longueur avec des dalles en granite.  Des bancs, 
+en granite eux aussi, alternent en quinconce avec des bouleaux au pied desquels
+pousse du lierre.  Ici, on voit le ciel, et même un petit bout de la tour 
+centrale.  Au Nord, le mur est recouvert de lierre, et il est traversé par un 
+passage qui conduit vers le Tipi.  Dans cette direction, à travers certaines 
+fenêtres on voit des équipements de physique ou de chimie.  Côté Sud, on voit 
+la bibliothèque à travers les baies vitrées.  Un autre passage couvert conduit 
+vers l'Est.  Juste à côté, un escalier qui conduisait à l'étage du dessus a 
+été démonté et gît par terre.  En regardant vers le haut, on voit la tour 43 
+vers le Nord-Est et la tour 33 vers le Nord-Ouest.  Un dernier passage couvert 
+conduit vers l'Ouest.
+
+
+>>> est
+Vous êtes dans un petit passage couvert qui sépare deux cours.  Au Sud, une
+porte vitrée donne sur le hall d'entrée de la bibliothèque.  En face, un 
+passage donne sur une rotonde qui ceinture le pied d'une tour peinte en rouge
+et marquée :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888  .d8888b.           `8,
+               d'              d8P888 d88P  Y88b           `b
+                              d8P 888      .d88P                 
+                             d8P  888     8888"                  
+                            d88   888      "Y8b.                 
+                            8888888888888    888                 
+                                  888 Y88b  d88P                
+               Y,                 888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> ouest
+Vous êtes dans une cour en longueur avec des dalles en granite.  Des bancs, 
+en granite eux aussi, alternent en quinconce avec des bouleaux au pied desquels
+pousse du lierre.  Ici, on voit le ciel, et même un petit bout de la tour 
+centrale.  Au Nord, le mur est recouvert de lierre, et il est traversé par un 
+passage qui conduit vers le Tipi.  Dans cette direction, à travers certaines 
+fenêtres on voit des équipements de physique ou de chimie.  Côté Sud, on voit 
+la bibliothèque à travers les baies vitrées.  Un autre passage couvert conduit 
+vers l'Est.  Juste à côté, un escalier qui conduisait à l'étage du dessus a 
+été démonté et gît par terre.  En regardant vers le haut, on voit la tour 43 
+vers le Nord-Est et la tour 33 vers le Nord-Ouest.  Un dernier passage couvert 
+conduit vers l'Ouest.
+
+
+>>> ouest
+Vous êtes à une intersection.  De gros poteaux en béton contraignent les 
+véhicules à rester sur la voie de circulation couverte orientée Nord-Sud, 
+mais les piétons eux peuvent emprunter le passage couvert qui conduit vers 
+une cour côté Est, ou bien aller dans le petit jardinet où poussent quelques 
+bouleaux côté Ouest.  Un mur peint en gris porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P     .d88P                 
+                                8888"     8888"                  
+                                 "Y8b.     "Y8b.                 
+                            888    888888    888                 
+                            Y88b  d88PY88b  d88P                
+               Y,            "Y8888P"  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> sud
+Ici la voie de circulation couverte orientée Nors-Sud donne partiellement sur 
+l'extérieur : les piétons peuvent traverser un petit jardinet vers l'Ouest.  
+Quelques arbres et de petits bambous y poussent au milieu de coquilages broyés 
+qui servent à empêcher les mauvaises herbes.  On voit le ciel d'ici, mais tous 
+les bâtiments qu'on peut voir en levant la tête ont le même aspect gris et 
+tristounet.  Vous distinguez des passerelles qui conduisent à l'étage 
+supérieur d'un bâtiment qui a l'air préfabriqué au Nord-Ouest, mais il 
+faudrait être au niveau du dessus pour les emprunter.
+
+
+>>> sud
+Vous arrivez à une nouvelle intersection.  Au sud, il y aun grand passage 
+couvert ;  le sol et les murs y sont peint en blanc avec des rayures rouges 
+par endroit.  Un panneau y indique "accès pompiers tour centrale".  Des voies 
+de circulation couvertes partent aussi vers l'Est, l'Ouest et le Nord.  Un 
+bruit de ventilation est assez présent. Le mur au sud-ouest est en briques 
+rouges, celui au sud-ouest en brique noires.  Le mur Nord porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                 .d88P  d8P 888                  
+                                8888"  d8P  888                  
+                                 "Y8b.d88   888                  
+                            888    8888888888888                 
+                            Y88b  d88P      888                 
+               Y,            "Y8888P"       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> est
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en noir.  La sortie est flechée vers l'Est, et la vitesse limitée 
+à 15 Km/h.  Une petite intersection donne sur l'entrée d'un parking coté Sud.
+
+
+>>> est
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en blanc cassé à cet endroit.  À moins que ce ne soit de la 
+poussière créée par la circulation automobile qui se soit déposée sur les murs
+originellement blancs, on ne sait pas.  On entend toujours des bruits de 
+ventilation assez important. Vers le Sud, un passage conduit vers un cul-de-sac.
+Sur le mur nord, figure une grosse indication :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888     d8888           `8,
+               d'              d8P888    d8P888            `b
+                              d8P 888   d8P 888                  
+                             d8P  888  d8P  888                  
+                            d88   888 d88   888                  
+                            88888888888888888888                 
+                                  888       888                 
+               Y,                 888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Sur le même mur au Nord, deux portes sont entrouvertes, et elles portent la
+même indication en petit.
+
+
+>>> nord
+Vous êtes dans une rotonde au milieu de laquelle se trouve la tour 44, peinte
+en rouge.  On entend le bruit d'une pompe depuis un local de plomberie voisin.
+Une porte donnant sur une salle de TME est entrouverte.
+
+Ici se trouve un ascenseur.
+
+>>> ouest
+Vous êtes dans une salle de TME d'informatique, avec un PC pour chaque binôme.  
+Il est interdit de boire ou de manger, et il faut respecter la charte informatique.
+Sur le tableau, un enseignant a écrit en gros : ``AUJOURD'HUI, THÉORIE ALGORITHMIQUE
+DES NOMBRES''.  Plusieurs postes sont allumés.
+
+Ici se trouve un étudiant allongé par terre.
+Ici se trouve un poste informatique #1.
+Ici se trouve un poste informatique #2.
+
+>>> étudiant
+Mieux vaut ne pas y toucher et laisser faire des professionnels.
+
+>>> carte étudiant
+Mieux vaut ne pas y toucher et laisser faire des professionnels.
+
+>>> carte
+Vous êtes complètement à votre avantage sur la photo,
+mais il n'y a personne ici à qui la montrer...
+
+>>> ##3
+Il n'y a pas de ##3
+
+>>> #3
+Il n'y a pas de #3
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                                        280751469151476429909710245063799781880842939052936647388496909518443530545936577763277109108432888709920137742917861470979725771352695472575683828552457493782025322933350504056872251850673236354300349052850707524285969120726064829608035802522049001290513634108836091931921802550842306271771890340601026174519974197450237937334079558088848420119612507213920285278229356773851734772794910662201035422153945537426939866149570763546228161089392049203824316598169854201374690847671755820049361930462690570
+
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                                        2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509, 521, 523, 541, 547, 557, 563, 569, 571, 577, 587, 593, 599, 601, 607, 613, 617, 619, 631, 641, 643, 647, 653, 659, 661, 673, 677, 683, 691, 701, 709, 719, 727, 733, 739, 743, 751, 757, 761, 769, 773, 787, 797, 809, 811, 821, 823, 827, 829, 839, 853, 857, 859, 863, 4337419790560331889887945572623899916123412670209772478747961049183596040438459411971079748175990083060075909574633388997292027252267321753
+
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                                        2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509, 521, 523, 541, 547, 557, 563, 569, 571, 577, 587, 593, 599, 601, 607, 613, 617, 619, 631, 641, 643, 647, 653, 659, 661, 673, 677, 683, 691, 701, 709, 719, 727, 733, 739, 743, 751, 757, 761, 769, 773, 787, 797, 809, 811, 821, 823, 827, 829, 839, 853, 857, 859, 863, 4337419790560331889887945572624430784785800676804132460713855347651390463225109846268852870463168906573203274317199970842398449661149260441
+
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                                        280751469151476429909710245064526281174624567426256498321180465566542023575830157443918097949104425152516562039785165843016958753238596549311855986427541181514177586045383422867601088074114747578660431650912260266768103915254036312481010791677865074476107501396954023971330736743272995028299187278691646177702923028862297762455677455177735469974098099700518479320024868711131236326080561485049581524351883322337972589171168015255448773102425710085633354415566800862754576207914407046376326333976359510
+
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                                        4337419790560331889887945572624430784785800676804132460713855347651390463225109846268852870463168906573203274317199970842398449661149260441
+
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                                        280751469151476429909710245066606735349431830794357479508262462545183331463832175397022409409309667497035127580151242945166759388725815649479240333014212802423871720910576428279558358766238592955021265856526160231613833917661514445688427446321456026994916358815060656862407039904154304971158338562926644009860236837525400767617687980347937176528908065923072343870381997019520135688958523591517544828537191607119039119118732468055800505552743615957808729359453456512091528612908828721943455192096791030
+
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                                        280751469151476429909710245063576177013047666362405139573787638380204767261472475375984753744733266731721981767147949363180375082482564480472289654400800663887290764986071856774789527132855128922742172748406552669250378790109386964085741793459472354275608561412362284126881509286979205692641515774612628889785282386040689129740532917067061172893004127638933827221839674675820376774674787036508429917338708942374562476960467907767492507156347215818411733020563553356385413415875230777221024962192161410
+
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                 
+
+[bdbe740a36109011f9fc6990f1f160b7] s
+>>> 
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                                                                                                        280751469151476429909710245066727234053874802937960275981474456827451069797489003518677256139999261507283676322046195633340566603242190848454006635702953259000561726536866571156719516462747447246470181020215442007881948645100216531399468229958528473690656823589539026834463957485206372652314942883313204359501239485089753487501367134252337733793130347275006750176395742163229443681128818557537425580590217875528710351790110274646056983508744813381015269238222771365848288323511431477723265769650698430
+
+
+>>> 
+Merci de vous exprimer clairement et de fournir un complément d'objet direct (valide).
+
+>>> conseil
+Vous pouvez m'interroger sur les postes de travail individuels.
+
+>>> conseil individuels
+Il n'y a pas de INDIVIDUELS
+Vous pouvez m'interroger sur les postes de travail individuels.
+
+>>> conseil postes de travail
+Il n'y a pas de TRAVAIL
+Vous pouvez m'interroger sur les postes de travail individuels.
+
+>>> conseil postes de travail individuels
+Il n'y a pas de INDIVIDUELS
+Vous pouvez m'interroger sur les postes de travail individuels.
+
+>>> plan
+
+>>> plan
+
+>>> sortir
+Vous êtes dans une rotonde au milieu de laquelle se trouve la tour 44, peinte
+en rouge.  On entend le bruit d'une pompe depuis un local de plomberie voisin.
+Une porte donnant sur une salle de TME est entrouverte.
+
+Ici se trouve un ascenseur.
+
+>>> tme
+Vous êtes dans une salle de TME d'informatique, avec un PC pour chaque binôme.  
+Il est interdit de boire ou de manger, et il faut respecter la charte informatique.
+Sur le tableau, un enseignant a écrit en gros : ``AUJOURD'HUI, THÉORIE ALGORITHMIQUE
+DES NOMBRES''.  Plusieurs postes sont allumés.
+
+Ici se trouve un étudiant allongé par terre.
+Ici se trouve un poste informatique #1.
+Ici se trouve un poste informatique #2.
+
+>>> conseil postes de travail individuels
+Il n'y a pas de INDIVIDUELS
+Vous pouvez m'interroger sur les postes de travail individuels.
+
+>>> théorie
+Il n'y a pas de THÉORIE
+
+>>> salle
+Impossible depuis cet endroit
+
+>>> conseil
+Vous pouvez m'interroger sur les postes de travail individuels.
+
+>>> ?
+Pour interagir avec le monde extérieur, il faut s'exprimer en langage
+(presque) naturel.  Une phrase typique se compose d'un verbe,
+éventuellement suivi d'un complément d'objet.  Dans l'ensemble, mieux
+vaut parler à l'infinitif. Autant dire :
+    ``regarder statue''.
+
+C'est plus facile à comprendre que :
+    ``Hmmm.... et si nous regardions la jolie statue qui se trouve dans
+      la pièce, hein ?  Juste au cas où ça nous donnerait des idées...''
+
+On peut aussi, si on préfère, essayer de parler anglais.
+
+Comme les informaticiens aiment être perçus comme des gens lettrés,
+la saisie est sensible aux accents (étudiant != etudiant).
+
+Le monde se compose d'objets et d'endroits.
+
+Les objets peuvent être examinés, utilisés ou pris (ça les ajoute à
+l'inventaire).  Certains ont des effets particuliers quand on les
+utilise.  Ils ne sont pas tous forcément très utiles.  Certains sont
+particulièrement importants.  On peut parfois faire référence aux objets
+en utilisant un morceau de leur nom (doc convient pour documentation).
+
+On ne peut se déplacer que dans des endroits qui sont proches de là où
+on se trouve.  On peut utiliser les points cardinaux (nord, sud, est, ouest)
+si on arrive à se repérer comme ça, ou bien essayer le nom de l'endroit où
+on voudrait aller.  On peut aussi essayer des directives un peu génériques
+comme monter, descendre, avancer, revenir, entrer, sortir, etc.
+
+Si le système ne réagit pas comme on s'y attend, on peut tenter de
+formuler les choses autrement, ou bien alors c'est que ce qu'on veut
+faire est tout simplement impossible.
+
+On peut utiliser la commande ``conseil'' si on est coincé.
+Enfin, CTRL+D permet de se déconnecter.
+
+Merci de le signaler les bugs ou les erreurs manifestes.
+
+>>> popste
+Il n'y a pas de POPSTE
+
+>>> poste
+Le mot POSTE est ambigü. Cela pourrait être :
+ - poste informatique #1
+ - poste informatique #2
+
+>>> #0
+Il n'y a pas de #0
+
+>>> #1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #1 : générateur d'ordre imposé
+===================================
+
+Difficulté : *
+
+
+But     : produire (p, g) avec p premier (a <= p < b)
+          et g d'ordre q modulo p
+
+
+a = c1d7e6de99df7d3e9b15f71c1507c84f2f2ed2e4c89c15f6e2c602600dc165e9951c7f6034a5b8bc4963ae5c31664d85b7e8da94387aaf014d5cac27f656e89d7d5eb9d7dd444a11f95d9e8d76f5ad45e4eb5e7f48d3dd2a85c992c389aeed2b4bb970b7d05d6200bcd5764e460acb7090b07f626af5550a7158741ba617994270a943d2018417d2262b44b97be77df208793cb493f9f6b2c79de6d319a7f673c1e081df59dabbab0ac79285df5dc0fea428f70399a136c90f2f0b620f8ec6f1b7a5e8e2adfafc769658089a734590f6b74b191253f98e3cdd28fb76c6b88629cb1c3cf1292832d8f593765e6c045b28aabdfc7fcd3b0da103ef587d3e923c29
+b = a + 2**1950
+q= ba1873bed1445fcce3d2be83c779d93a23b96028e8aefe62f45df5da5bf8a0c7
+
+
+                    p :                                                          
+                    g :                                                          
+
+
+>>> 
+Merci de vous exprimer clairement et de fournir un complément d'objet direct (valide).
+
+>>> #1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #1 : générateur d'ordre imposé
+===================================
+
+Difficulté : *
+
+
+But     : produire (p, g) avec p premier (a <= p < b)
+          et g d'ordre q modulo p
+
+
+a = 32985e172e6e1adfe1a250500ac56bafd8da383962c61864277dad9421fdd014fc117b12ba9b63c85a385d5390dc4d5b3428b97d3cf972abdff6183a0f12f6fe22248fd56e22e1abb094f722474c8bcddcfb90bff485a338c824a090449b50883fa35f618f64c68b1c7ea79293a0e7e19b18e41f9e2f29dd54ff69a2db0d91f2b5b8d4b85ec3df942bfe1a706868a9db755a823da42204cf55671ce8aa942080ac29fbf4483167c55113b770637235771157970e4e034b1bbd2bc39e040dde52ea1b6c5d7a953aeeb3109e27026494b4b2438224ef5f535dbf761bb55b14c126c03ca3674aa48e19b6ac0aac20a8cd6c1f16a24daa2774d4497e2fd48638fa09
+b = a + 2**1950
+q= a3094d9c2b090c7218b2a775697be8e17d50343ade9607158287f87c5970cee9
+
+
+                    p :                         6387050483206869038018415036908735612050097347853669509564226034773240424389617318929637685868223944099281498270469614189583166591923902115405432495805042932834584945071647890155215952359431518530637393887873166337408745078514654624318827911374638901201688469562470601404140357103145549962486689673012083071172746626708413710039389691893310650907733689399262328848124980686893523317773001770072922970188762079447020345102254735826248713125166118691672504098255058115859000061953577766302911648854678833816081109661349213085943597200776752908371583765071965335558821025108107658260156221585792134234671019672095229087
+                    g :                         5034562259821725429872544536435652728419608502896858763276496380918561064602584685429391790722677981669894290753763650999719133985958236751022665581522764212818837582107498859979420989427235150154290689888392733828156438183052578678704527507255194232889677095778587559710533196231346125183603083479529221920697993405577904942907916897564562202042123042101305246742121565810029573461723048449508852749891415749665865876180693349584380786730460781681070560471099454364802191933899327361970728573751593714220752940675379316356350221801069779750672173068754075946332215501124070350389109577052210587789635527297125905986
+
+
+[bdbe740a36109011f9fc6990f1f160b7] {
+                                     "session-key": "74eda29b1eb5bb127ef2d0f4dcc1a773fa071c96474cdf7ae1943d82858f88655daac2b9c064823cacb9a7b0861fef3c99afb3a5e21abfb2ea348cfb7563b61cb4f8ae0209468ef664c1776c3367d020889cdebd21af7ca3fcf8d1fa7f803095e56427737a77b7e937a570ec7f09fc1f079b8bd1346f70913064ad47198102fa3ba56d7bcb0a11f26c7fc92b219857cede3421782c662660bc70f8f9aea2316420a900f0b6f07c4cd13941dfe59718490b35450afdba7eb42b68312ec0785735b0244713c422502a6ad8ae044143501d6c5b6caeb5cae99ad9cc7821c6882e8aaf103ea2acec404213b6a8eaaf23ed1580efc4d3965884953422f6c70bc18d9a",
+                                     "ciphertext": "U2FsdGVkX1/Pa77xmIIU3Hw3wWeae6gQDhRZZBUWW6k=\n"
+                                   }
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         28253812716235360652145688040553905538627199697462532881695128915636040054339436091950955138264559200049107968324758
+                    (p-1) // q :                280751469151476429909710245063821510457354645912711165152189397313767212382557149805185709552137864563110982819442758538323193989345364434547627563960167908899480533804827024471309468302069835404801003800377320386207014088473896281039668642187015177464774030539389828618517540004370234277940016791664991572443402474200772722518957580686383858739869724132314843803437327269705770139737820982938575236187924708644844278300239878561644493062206233923266400318296712302610300747442964151388295671299082890
+
+
+>>> #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        +--------------PLEASE LOGIN--------------+
+                        | username:  saad                        |
+                        | password:  **************              |
+                        +----------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TME #2 : racine primitive
+=========================
+
+Difficulté : **
+
+
+But     : produire (p, g) avec p premier (a <= p < b) et g d'ordre p-1 modulo p.
+          Il faut également fournir la factorisation de p-1.
+          p-1 doit être un multiple de q.
+
+
+a = 3ed5fe8a510c1864203e13b0a92fdfcb95cbc3f1137af1407ba0983dd5ab59dcae800c3e94eff41e4493eacf33407f344060956a0064e0069b0d5f2ee93aa15d8c406ccc6b02442f19c9f5d051e3c7dcb6f65f2349b12fba57ae26e43f724305ca5d6d375e6c358accf93a627ece0618994b9f57185e98a6c6708f98c03092de1a5548e63f33ab005e4ddc53704483161c762fb7ceddc213aa76d604ddbe2c6ef50e8f554c1a79ce808d390282a3f7740decbb3cd53155335c4202c3775ba552a8de71a852f603fb31c8cc7bab2f227b8ffab2f354e245d1afd897c0829af15afa2ebb05a03998cdf6381cdb87dc48d1ec39c9f6eb7a5ab61a70e056cc49451f
+b = a + 2**1950
+q = b79197fcbea7e4502d30deee08a05efa277d86e25a4f26f90d4b216b12f0b0da3899210366c64be21c6f83d86c71f497
+
+
+Format pour (p-1) // q : x1, x2, ..., xn
+
+                    g :                         4613949778137299632111813235557769561811936368635751725748917631356059938926211242965701043263632389182401254776490312298109751445400344342303789551784713321076656899876170393486256295428079407935406655969318821424766722268272356178438942959574907971063104744272816008601884451962585300192745319431785364800833570722511653031754910542858710916821317769170599092787176726133168431212629233085872261533907041271699090790879362832930570344599914600800798627810295049041499297733680645956736948155086377198765795893309569820580085059084699867444033950408761118837097086287987358865747020028710749922176241465942110665836
+                    (p-1) // q :                2, 26149197136267530087835634319863175539380579227212386147336537097166147333220814514619175169407823387530819538867689, 20858731329012855932431835346565675500558400309129687971315579551330184831426764445259906580963263787171986259998561, 27237843773554646956774864283343398168531095611087876227752052808202758734951919223073137003922437658802121823937337, 2375691312963666063125954920374282019233098942791698817521441163397656777510008752541923027540387989855074344250401, 3977251536498818941176130568615018453473
+
+[security engine] tme.primitive:262:1|53fad4d33c2f16fb6b60c740bdf0f24eba484de89323564e1e061b3e785475f7
+>>> 
+>>> sortir
+Vous êtes dans une rotonde au milieu de laquelle se trouve la tour 44, peinte
+en rouge.  On entend le bruit d'une pompe depuis un local de plomberie voisin.
+Une porte donnant sur une salle de TME est entrouverte.
+
+Ici se trouve un ascenseur.
+
+>>> conseil
+Les tâches les plus faciles sont au LPNHE.
+
+>>> sud
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en blanc cassé à cet endroit.  À moins que ce ne soit de la 
+poussière créée par la circulation automobile qui se soit déposée sur les murs
+originellement blancs, on ne sait pas.  On entend toujours des bruits de 
+ventilation assez important. Vers le Sud, un passage conduit vers un cul-de-sac.
+Sur le mur nord, figure une grosse indication :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888     d8888           `8,
+               d'              d8P888    d8P888            `b
+                              d8P 888   d8P 888                  
+                             d8P  888  d8P  888                  
+                            d88   888 d88   888                  
+                            88888888888888888888                 
+                                  888       888                 
+               Y,                 888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Sur le même mur au Nord, deux portes sont entrouvertes, et elles portent la
+même indication en petit.
+
+
+>>> ouest
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en noir.  La sortie est flechée vers l'Est, et la vitesse limitée 
+à 15 Km/h.  Une petite intersection donne sur l'entrée d'un parking coté Sud.
+
+
+>>> ouest
+Vous arrivez à une nouvelle intersection.  Au sud, il y aun grand passage 
+couvert ;  le sol et les murs y sont peint en blanc avec des rayures rouges 
+par endroit.  Un panneau y indique "accès pompiers tour centrale".  Des voies 
+de circulation couvertes partent aussi vers l'Est, l'Ouest et le Nord.  Un 
+bruit de ventilation est assez présent. Le mur au sud-ouest est en briques 
+rouges, celui au sud-ouest en brique noires.  Le mur Nord porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                 .d88P  d8P 888                  
+                                8888"  d8P  888                  
+                                 "Y8b.d88   888                  
+                            888    8888888888888                 
+                            Y88b  d88P      888                 
+               Y,            "Y8888P"       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> ouest
+Vous arrivez à une intersection entre une voie de circulation intérieure 
+orientée Nord-Sud et une autre qui part vers l'Est.  Un panneau "sortie" 
+pointe vers l'Est.  Une gaine de ventilation métallique passe près du faux 
+plafond, et vous entendez un bruit de soufflerie.  Une porte donne sur un
+autre local poubelle (encore un !).  Sur le mur a été peint en gros :
+                         
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                   888  d8P 888                  
+                                 .d88P d8P  888                  
+                             .od888P" d88   888                  
+                            d88P"     8888888888                 
+                            888"            888                 
+               Y,           888888888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Vous êtes sur une voie de circulation couverte orientée Nord-Sud.  Sur le mur 
+Ouest, une grande porte en fer bloque l'accès à une pièce obscure.  À côté se
+trouve un petit panneau indiquant : 
+                        "Trappe d'accès accélérateur".  
+Le faux plafond défoncé est un lointain écho des nombreux passages de camions 
+de livraison.  Côté Est, deux bâtiments délimitent un petit jardin non dénué de 
+charme et qu'on peut traverser.  En tout cas, ça fait du bien de voir la 
+lumière du jour !  À travers les fenêtres d'un des bâtiments on peut apercevoir 
+une batterie d'étranges machines.  En levant la tête on voit une passerelle 
+conduisant à l'espace de la vie étudiante, mais on ne peut pas y aller d'ici.
+
+
+>>> nord
+Vous êtes à une intersection.  La voie de circulation couverte part vers le 
+Nord et vers le Sud.  D'ici on peut traverser le petit jardinet qui se trouve 
+à l'Est, ou bien prendre le passage couvert abritant un parking à vélo qui se 
+trouve à l'Ouest.  Sur un mur, il a été peint en gros :
+                        
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888     .d88P                 
+                                 .d88P    8888"                  
+                             .od888P"      "Y8b.                 
+                            d88P"     888    888                 
+                            888"      Y88b  d88P                
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Ici de gros poteaux en bétons contraignent les véhicules à rester sur la voie
+de circulation couverte orientée Nord-Sud, tandis que les piétons peuvent 
+passer à travers pour aller dans le petit jardin qui se trouve à l'Ouest.
+Ici y a de petits bambous et quelques autres espèces de plantes.  On voit le
+ciel d'ici, ça change.  À travers les fenêtres des bâtiments, on voit 
+des machines-outils et des équipements expérimentaux de physique ou de chimie.
+
+
+>>> nord
+Ici, la voie de circulation couverte se termine par un cul de sac : elle donne 
+sur une grande porte en fer... qui est fermée.  Côté Est, les piétons peuvent 
+accéder à un petit jardinet d'où on voir le ciel.  Là se trouve l'entrée 
+d'un bâtiment.  Au-dessus de la porte un panneau annonce :
+                          L      P      N      H      E
+                            a      h      u      a      n 
+                            b      y      c      u      e
+                            o      s      l      t      r                       
+                            r      i      é      e      g                 
+                            a      q      a      s      i                 
+                            t      u      i             e                
+                            o      e      r             s                
+                            i             e                             
+                            r                                          
+                            e                                          
+ De l'autre côté, sur le mur une inscription est peinte :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888       888                 
+                                 .d88P     .d88P                 
+                             .od888P"  .od888P"                  
+                            d88P"     d88P"                      
+                            888"      888"                      
+               Y,           888888888 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Impossible depuis cet endroit
+
+>>> LPNHE
+Vous êtes dans le hall d'entrée du labo.  Cette pièce permet l'acceuil du
+public, de groupes scolaires, etc.  Il y a des posters de vulgarisation un
+peu partout.  Le guichet d'accueil est vacant.  Un couloir donne vers le sud.
+
+Ici se trouve un terminal à diposition du public.
+Ici se trouve un Poster explicatif.
+
+>>> Poster
+Rien ne se passe...
+
+>>> regarder poster
+Il s'agit d'une affiche de propagande à destination du grand public qui
+visiterait le labo et qui s'intéresserait au terminal juste à côté.
+      
+      "ce dispositif innovant communique grâce à la téléportation
+       d'information quantique --- il est relié directement à nos 
+       dispositifs de pointe installés au sous-sol.  Si des dimensions 
+       parallèles existaient, les modèles actuels de la physique 
+       prédisent qu'on pourrait communiquer avec grâce à ce procédé !".
+
+>>> terminal
+
+>>> conseil
+Il y a plein de choses à faire dans les parages.  Explorez.
+
+>>> guichey
+Il n'y a pas de GUICHEY
+
+>>> guichet
+Il n'y a pas de GUICHET
+
+>>> sud
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> sas
+Code incorrect.
+[3f8d3f2f6895d4a5e9885f8ed0e6d4ff] {"session-key": "34d140a5861024cb2319596196437b784a9daa396a2117f2c8dec17aa1c5539524a6691a78a26127ef3e1dae1d9ace8c6a73f6403fded9da7ddea40d66e56af4055ca817dcbe65aad025357eee914cab73f60d8583fd93a03c1d9dfa163381d47be771cdbefff9348879e75f18f7c0267d96efbd34b45a311310b45bcec66d6b2284181124951bfca593add6981146b8a0f020e7f6d7d5fbf7d042ddcc15c556324f407d13a5040bb9734acbab54170c7df47efd3fa84ac8207310c35f37d5fea5dc1241f00615edc7dc4fdc72ca3809fc0a95f7de2586d53abdc6fb378a57f97721ea2c0cad3d2e099207bb0183a19d8e7589d2aaa8bc41f4a33e4aefadc654", "ciphertext": "U2FsdGVkX18MZS7Pru4d7tsc2fIx/5uWO4hL6n4e8hg=\r\n"}
+>>> 
+>>> RC-13
+Vous êtes dans un petit bureau de chercheur anonyme.  Pas d'affaires personnelles, 
+pas de déco.  En fait, il y a une table, une chaise, quelques affaires de travail 
+et c'est tout.
+
+Ici se trouve un post-it sur la porte.
+Ici se trouve un ordinateur fixe sur le bureau.
+Ici se trouve un feuillet imprimé.
+
+>>> regarder post-it
+Un post-it rose collé sur la porte.  Il dit :
+        aitana56, combien de fois t'ai-je dit de ne pas choisir ton mot de passe
+        dans le Cambridge English Dictionary ? Tu n'apprends jamais rien !
+        Comment je suis censé faire respecter une politique de securité, moi, tu y penses ?
+        ---
+        L'administrateur système
+
+>>> regarder feuillet
+Une feuille A4, 80g/m².  Un utilisateur a imprimé dessus une trace du protocole 
+d'authentification CHAP.  Peut-être qu'il essayait de mettre au point un client
+personnalisé pour se connecter ? Il y a écrit :
+---> {"jsonrpc": "2.0", "method": "protagonist.CHAP-challenge", "params": {"world_id": "d6e3a1374f6455d9f5278d667232ee49", "username": "aitana56"}, "id": 153}
+<--- {"jsonrpc": "2.0", "result": "U2FsdGVkX18LdIiHO/Rni3XBUDMW2VcUSKbM6RXSvcb4LVYlh2qyP9xx3IgJR8VP\n", "id": 153}
+---> {"jsonrpc": "2.0", "method": "protagonist.CHAP-response", "params": {"world_id": "d6e3a1374f6455d9f5278d667232ee49", "response": "drill thens bogus moist cakes"}, "id": 154}
+<--- {"jsonrpc": "2.0", "result": null, "id": 154}
+
+>>> conseil
+Les tâches les plus faciles sont au LPNHE.
+
+>>> sortir
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> sas
+Code incorrect.
+
+>>> RC-14
+Vous êtes dans un local de stockage, presque une sorte de débarras.  Le personnel
+du nettoyage y range aussi ses fournitures.
+
+Ici se trouve un coffre-fort.
+Ici se trouve un terminal de service.
+
+>>> nettoyage
+Il n'y a pas de NETTOYAGE
+
+>>> fournitures
+Il n'y a pas de FOURNITURES
+
+[3f8d3f2f6895d4a5e9885f8ed0e6d4ff] {"session-key": "34d140a5861024cb2319596196437b784a9daa396a2117f2c8dec17aa1c5539524a6691a78a26127ef3e1dae1d9ace8c6a73f6403fded9da7ddea40d66e56af4055ca817dcbe65aad025357eee914cab73f60d8583fd93a03c1d9dfa163381d47be771cdbefff9348879e75f18f7c0267d96efbd34b45a311310b45bcec66d6b2284181124951bfca593add6981146b8a0f020e7f6d7d5fbf7d042ddcc15c556324f407d13a5040bb9734acbab54170c7df47efd3fa84ac8207310c35f37d5fea5dc1241f00615edc7dc4fdc72ca3809fc0a95f7de2586d53abdc6fb378a57f97721ea2c0cad3d2e099207bb0183a19d8e7589d2aaa8bc41f4a33e4aefadc654", "ciphertext": "U2FsdGVkX18MZS7Pru4d7tsc2fIx/5uWO4hL6n4e8hg=\r\n"}
+>>> ouvrir coffre
+Vous n'allez pas essayer de l'ouvrir avec vos ongles.
+
+>>> code
+Il n'y a pas de CODE
+
+>>> code coffre
+Vous n'allez pas essayer de l'ouvrir avec vos ongles.
+
+>>> conseil
+Les tâches les plus faciles sont au LPNHE.
+
+>>> sortir
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> sortir
+Impossible depuis cet endroit
+
+>>> nord
+Vous êtes dans le hall d'entrée du labo.  Cette pièce permet l'acceuil du
+public, de groupes scolaires, etc.  Il y a des posters de vulgarisation un
+peu partout.  Le guichet d'accueil est vacant.  Un couloir donne vers le sud.
+
+Ici se trouve un terminal à diposition du public.
+Ici se trouve un Poster explicatif.
+
+>>> est
+Impossible depuis cet endroit
+
+>>> sud
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> sud
+Impossible depuis cet endroit
+
+>>> sud
+Impossible depuis cet endroit
+
+>>> sud
+Impossible depuis cet endroit
+
+>>> est
+Impossible depuis cet endroit
+
+>>> nord
+Vous êtes dans le hall d'entrée du labo.  Cette pièce permet l'acceuil du
+public, de groupes scolaires, etc.  Il y a des posters de vulgarisation un
+peu partout.  Le guichet d'accueil est vacant.  Un couloir donne vers le sud.
+
+Ici se trouve un terminal à diposition du public.
+Ici se trouve un Poster explicatif.
+
+>>> nord
+Impossible depuis cet endroit
+
+>>> nord
+Impossible depuis cet endroit
+
+>>> plan
+
+>>> sud
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> sud
+Impossible depuis cet endroit
+
+>>> sud
+Impossible depuis cet endroit
+
+>>> plan
+
+>>> salle 
+Impossible depuis cet endroit
+
+>>> salle dd'expériences
+Il n'y a pas de DD'EXPÉRIENCES
+
+>>> salle d'expériences
+Code incorrect.
+
+>>> 
+Merci de vous exprimer clairement et de fournir un complément d'objet direct (valide).
+
+>>> sortir
+Impossible depuis cet endroit
+
+>>> nord
+Vous êtes dans le hall d'entrée du labo.  Cette pièce permet l'acceuil du
+public, de groupes scolaires, etc.  Il y a des posters de vulgarisation un
+peu partout.  Le guichet d'accueil est vacant.  Un couloir donne vers le sud.
+
+Ici se trouve un terminal à diposition du public.
+Ici se trouve un Poster explicatif.
+
+>>> Poster
+Rien ne se passe...
+
+>>> terminal
+
+>>> plan
+
+>>> est
+Impossible depuis cet endroit
+
+>>> nord
+Impossible depuis cet endroit
+
+>>> sortir
+Ici, la voie de circulation couverte se termine par un cul de sac : elle donne 
+sur une grande porte en fer... qui est fermée.  Côté Est, les piétons peuvent 
+accéder à un petit jardinet d'où on voir le ciel.  Là se trouve l'entrée 
+d'un bâtiment.  Au-dessus de la porte un panneau annonce :
+                          L      P      N      H      E
+                            a      h      u      a      n 
+                            b      y      c      u      e
+                            o      s      l      t      r                       
+                            r      i      é      e      g                 
+                            a      q      a      s      i                 
+                            t      u      i             e                
+                            o      e      r             s                
+                            i             e                             
+                            r                                          
+                            e                                          
+ De l'autre côté, sur le mur une inscription est peinte :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888       888                 
+                                 .d88P     .d88P                 
+                             .od888P"  .od888P"                  
+                            d88P"     d88P"                      
+                            888"      888"                      
+               Y,           888888888 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> est
+Vous êtes au pied d'une tour sur laquelle est écrit :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P       888                 
+                                8888"      .d88P                 
+                                 "Y8b. .od888P"                  
+                            888    888d88P"                      
+                            Y88b  d88P888"                      
+               Y,            "Y8888P" 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici, la voie de circulation se termine par un cul de sac : elle est barrée
+par une grande porte en fer qui est verrouillée.  Côté Ouest se trouve un
+petit jardinet de bambous avec de petits arbres.  À travers les fenêtres 
+des bâtiments adjascents, vous voyez de gros équipements expérimentaux de 
+physique ou de chimie, vous  ne savez pas.  Sur une porte fermée, un panneau
+proclame : "Accès interdit sans autorisation" et "Si vous devez intervenir 
+SEUL à l'intérieur de cette salle EQUIPEZ-VOUS de l'emetteur d'alarme DATI".   
+
+Ici se trouve un ascenseur.
+
+>>> sud
+La voie de circulation couverte continue vers le Nord et vers le Sud.  À l'Est 
+se trouve un mur en béton désespérément gris.  Vers l'Ouest, on peut traverser 
+un petit jardinet pentu dans lequel prospèrent bambous, lierre et autres mousses. 
+
+Ici se trouve un graffiti sur un pilier.
+
+>>> sud
+Vous êtes à une intersection.  De gros poteaux en béton contraignent les 
+véhicules à rester sur la voie de circulation couverte orientée Nord-Sud, 
+mais les piétons eux peuvent emprunter le passage couvert qui conduit vers 
+une cour côté Est, ou bien aller dans le petit jardinet où poussent quelques 
+bouleaux côté Ouest.  Un mur peint en gris porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P     .d88P                 
+                                8888"     8888"                  
+                                 "Y8b.     "Y8b.                 
+                            888    888888    888                 
+                            Y88b  d88PY88b  d88P                
+               Y,            "Y8888P"  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> sud
+Ici la voie de circulation couverte orientée Nors-Sud donne partiellement sur 
+l'extérieur : les piétons peuvent traverser un petit jardinet vers l'Ouest.  
+Quelques arbres et de petits bambous y poussent au milieu de coquilages broyés 
+qui servent à empêcher les mauvaises herbes.  On voit le ciel d'ici, mais tous 
+les bâtiments qu'on peut voir en levant la tête ont le même aspect gris et 
+tristounet.  Vous distinguez des passerelles qui conduisent à l'étage 
+supérieur d'un bâtiment qui a l'air préfabriqué au Nord-Ouest, mais il 
+faudrait être au niveau du dessus pour les emprunter.
+
+
+>>> ouest
+Vous êtes sur une voie de circulation couverte orientée Nord-Sud.  Sur le mur 
+Ouest, une grande porte en fer bloque l'accès à une pièce obscure.  À côté se
+trouve un petit panneau indiquant : 
+                        "Trappe d'accès accélérateur".  
+Le faux plafond défoncé est un lointain écho des nombreux passages de camions 
+de livraison.  Côté Est, deux bâtiments délimitent un petit jardin non dénué de 
+charme et qu'on peut traverser.  En tout cas, ça fait du bien de voir la 
+lumière du jour !  À travers les fenêtres d'un des bâtiments on peut apercevoir 
+une batterie d'étranges machines.  En levant la tête on voit une passerelle 
+conduisant à l'espace de la vie étudiante, mais on ne peut pas y aller d'ici.
+
+
+>>> ouest
+Impossible depuis cet endroit
+
+>>> est
+Ici la voie de circulation couverte orientée Nors-Sud donne partiellement sur 
+l'extérieur : les piétons peuvent traverser un petit jardinet vers l'Ouest.  
+Quelques arbres et de petits bambous y poussent au milieu de coquilages broyés 
+qui servent à empêcher les mauvaises herbes.  On voit le ciel d'ici, mais tous 
+les bâtiments qu'on peut voir en levant la tête ont le même aspect gris et 
+tristounet.  Vous distinguez des passerelles qui conduisent à l'étage 
+supérieur d'un bâtiment qui a l'air préfabriqué au Nord-Ouest, mais il 
+faudrait être au niveau du dessus pour les emprunter.
+
+
+>>> est
+Impossible depuis cet endroit
+
+>>> est
+Impossible depuis cet endroit
+
+>>> est
+Impossible depuis cet endroit
+
+>>> lplan
+Il n'y a pas de LPLAN
+
+>>> plan
+
+>>> sud
+Vous arrivez à une nouvelle intersection.  Au sud, il y aun grand passage 
+couvert ;  le sol et les murs y sont peint en blanc avec des rayures rouges 
+par endroit.  Un panneau y indique "accès pompiers tour centrale".  Des voies 
+de circulation couvertes partent aussi vers l'Est, l'Ouest et le Nord.  Un 
+bruit de ventilation est assez présent. Le mur au sud-ouest est en briques 
+rouges, celui au sud-ouest en brique noires.  Le mur Nord porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                 .d88P  d8P 888                  
+                                8888"  d8P  888                  
+                                 "Y8b.d88   888                  
+                            888    8888888888888                 
+                            Y88b  d88P      888                 
+               Y,            "Y8888P"       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> est
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en noir.  La sortie est flechée vers l'Est, et la vitesse limitée 
+à 15 Km/h.  Une petite intersection donne sur l'entrée d'un parking coté Sud.
+
+
+>>> est
+Vous êtes sur une voie de circulation couverte orientée Est-Ouest.  Les murs 
+sont peints en blanc cassé à cet endroit.  À moins que ce ne soit de la 
+poussière créée par la circulation automobile qui se soit déposée sur les murs
+originellement blancs, on ne sait pas.  On entend toujours des bruits de 
+ventilation assez important. Vers le Sud, un passage conduit vers un cul-de-sac.
+Sur le mur nord, figure une grosse indication :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888     d8888           `8,
+               d'              d8P888    d8P888            `b
+                              d8P 888   d8P 888                  
+                             d8P  888  d8P  888                  
+                            d88   888 d88   888                  
+                            88888888888888888888                 
+                                  888       888                 
+               Y,                 888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Sur le même mur au Nord, deux portes sont entrouvertes, et elles portent la
+même indication en petit.
+
+
+>>> est
+Vous arrivez à une intersection.  Côté Est, une grande porte grillagée
+donne sur l'extérieur.  À travers, vous distinguez deux grandes citernes
+"Air Liquide", mais c'est inaccessible car la porte est fermée.
+Une voie de circulation couverte part vers l'Ouest tandis qu'une autre est 
+orientée Nord-Sud.  Des panneaux indiquent "53-54" vers le Nord et "55-56" 
+vers le Sud.
+
+
+>>> est
+Impossible depuis cet endroit
+
+>>> est
+Impossible depuis cet endroit
+
+>>> notf
+Il n'y a pas de NOTF
+
+>>> nord
+Vous êtes sur une voie de circulation couverte orientée Nors-Sud.  Côté Est,
+une grille en fer vous sépare d'une petite cour avec un jardinet, mais 
+heureusement il y a une ouverture et on peut passer.  Quelques vélos sont 
+attachés ici, et vous supposez que leurs propriétaires les ont abandonné.
+
+
+>>> est
+Vous êtes dans une petite cour avec quelques arbres, un peu de mousse et
+quelques fougères.  Cette végétation, et le fait qu'on puisse voir le ciel 
+donne à cet endroit une ambiance apaisante.  Côté Ouest se trouve la grille
+en fer qui vous sépare du couloir.  Côté Est se trouve un grand bâtiment rouge.
+À travers les fenêtre vous voyez ce qui est manifestement une bibliothèque.  
+Côté Nord, il y a un mur rouge avec de grandes fenêtres qui donnent sur des 
+bureaux.  L'une d'entre elle est mal fermée et vous pourriez passer.
+Côté Sud, c'est pareil, mais le mur est gris.  Vous n'en êtes pas vraiment
+sûr, mais vous vous demandez s'il n'y avait pas un escalier métallique ici 
+avant, conduisant à l'étage du dessus.  Mais en tout cas il n'est plus là.
+En levant la tête, vous voyez la barre 54-64 au sud et la barre 54-53 au nord,
+mais pas moyen d'accéder à l'étage du dessus depuis cet endroit.
+
+Ici se trouve une serrure sans contact (NFC) sur la grille.
+
+>>> NFC
+Vous ne pouvez pas faire grand-chose avec, mais vous pourriez essayer
+d'utiliser un AUTRE objet dessus.
+
+>>> carte
+La porte ne s'ouvre pas. Une lumière rouge est allumée sur le lecteur de badge.
+Le micro-écran LCD affiche "SMART CARD CONTAINS NO DATA".
+
+
+>>> regarder carte
+Elle indique votre nom et il y a votre photo.  Elle peut aussi servir
+pour le resto-U ou les distributeurs de friandises.  Il paraît que vous êtes en M1.
+
+>>> plan
+
+>>> nord
+Vous entrez dans un bureau partagé, peut-être celui des bibliothécaires.  Il
+y a  plusieurs ordinateurs, des livres, des paperasses, une cafetière, etc.
+Une porte donne sur un couloir attenant à la bibliothèque, mais elle est 
+obstinément fermée.
+
+Ici se trouve un terminal de service.
+Ici se trouve un memento pour les employés qui ont un bureau dans ce bâtiment.
+
+>>> terminal
+
+>>> sortir
+Vous êtes dans une petite cour avec quelques arbres, un peu de mousse et
+quelques fougères.  Cette végétation, et le fait qu'on puisse voir le ciel 
+donne à cet endroit une ambiance apaisante.  Côté Ouest se trouve la grille
+en fer qui vous sépare du couloir.  Côté Est se trouve un grand bâtiment rouge.
+À travers les fenêtre vous voyez ce qui est manifestement une bibliothèque.  
+Côté Nord, il y a un mur rouge avec de grandes fenêtres qui donnent sur des 
+bureaux.  L'une d'entre elle est mal fermée et vous pourriez passer.
+Côté Sud, c'est pareil, mais le mur est gris.  Vous n'en êtes pas vraiment
+sûr, mais vous vous demandez s'il n'y avait pas un escalier métallique ici 
+avant, conduisant à l'étage du dessus.  Mais en tout cas il n'est plus là.
+En levant la tête, vous voyez la barre 54-64 au sud et la barre 54-53 au nord,
+mais pas moyen d'accéder à l'étage du dessus depuis cet endroit.
+
+Ici se trouve une serrure sans contact (NFC) sur la grille.
+
+>>> carte
+La porte ne s'ouvre pas. Une lumière rouge est allumée sur le lecteur de badge.
+Le micro-écran LCD affiche "DEVICE DOES NOT CONTAIN A PUBLIC KEY".
+
+
+>>> nord
+Vous entrez dans un bureau partagé, peut-être celui des bibliothécaires.  Il
+y a  plusieurs ordinateurs, des livres, des paperasses, une cafetière, etc.
+Une porte donne sur un couloir attenant à la bibliothèque, mais elle est 
+obstinément fermée.
+
+Ici se trouve un terminal de service.
+Ici se trouve un memento pour les employés qui ont un bureau dans ce bâtiment.
+
+>>> memento
+Vous pouvez le lire, mais c'est tout.
+
+>>> regarder memento
+1. Dans le cadre de notre campagne de communication intitulée
+        "une sécurité maximale, mais avec la classe"
+   nous vous rappelons que tous les utilisateurs de ce bâtiment
+   doivent dorénavant avoir une clef publique RSA qui contient
+   la chaîne "+++ATRIUM+++".
+
+2. Cette chaîne promotionnelle doit se trouver à l'intérieur de la clef
+   publique ; en particulier, elle ne doit pas être ajoutée au bout d'une
+   clef pré-existante.  Autrement dit, ceci n'est pas autorisé :
+       -----BEGIN PUBLIC KEY-----
+       MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsHyqhsu3IxBYkCifvMrP
+       uM/uv0hfq0PHbCfrUxFYooWLm3M0rru5Q+9BKQXqBRLa9iO+Tgn8Sy9+ABz0EJVd
+       RRtatBkRj/UG3k+65UMxn5s47It+2sCXrX8TDmqPPtVa8Heo/5pqH1A/0LGj5YRo
+       8GT0/ITj40j3I+Kp/1a9qP6+5eAqvUHfpC/hro2OCBAOi4+Q8qB+Zrx3jCa1l4R4
+       0zQpvVf0nE+tjt7ZLBqlwKUnEWvVmFYJ3l/dikT9yG7s0UBOhAT8rZmwZVOluYeW
+       yuERSus5TJbN8V9XR8q1lk8o7WBxtpyJotf5l/cCdmVlL9cSaZhVx26cAEcZ496z
+       2QIDAQAB+++ATRIUM+++
+       -----END PUBLIC KEY-----
+
+3. Pour entrer dans le bâtiment ou dans les bureaux, il faut passer son
+   badge devant le lecteur NFC.  Le badge doit contenir la clef publique,
+   puis l'utilisateur doit réaliser une signature de manière interactive.
+
+4. Pour simplifier la gestion des clefs, les occupants du même bureau 
+   ont des clefs publiques RSA qui ont le même modulo (N).
+
+>>> 

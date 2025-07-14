@@ -1,0 +1,1 @@
+{"cardholder": "Jacob Brown", "card-number": "3134-1668-6035-3005", "bank-name": "Conway-Thompson", "currency": "EUR", "amount": 59}

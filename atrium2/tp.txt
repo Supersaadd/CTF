@@ -1,0 +1,40 @@
+[SUDO]>>> regarder sujet
+Ce projet consiste à utiliser les ChipWhisperer (des cartes électroniques
+conçues pour mettre facilement en oeuvre des attaques par canaux auxiliaires).
+Le projet est en deux parties.  Vous devez restituer le matériel à la fin du
+semestre (sinon vous aurez zéro).  Vous devrez présenter les résultats obtenus
+lors d'une petite soutenance à la fin du semestre.  La deuxième partie est
+réservée aux étudiants qui ont déjà fait la première.
+
+Première partie : AES
+---------------------
+Un message a été chiffré avec l'AES-128 en mode CBC, avec une clef et un IV
+aléatoires.  Le bourrage standard a été utilisé (comme dans OpenSSL).  Utilisez
+la ChipWhisperer-lite qui a été mise à vitre disposition et mettez en oeuvre
+une attaque de votre choix pour récuperer le texte clair.  
+
+Voici le chiffré :
+AES-CIPHERTEXT = cc3d16e1caa7a0c46f9fdcf5f467fa1ad531dd680f2cd6bf4e60a348ae718a6cf56946ddd15e6c1be7c124de6a8999e485a60fef7f30a77e7991d929259e3c6692a0ea6047123bc784d8d5c868cf8d10
+
+
+Deuxième partie : RSA
+---------------------
+Un message a été chiffré avec le système RSA PKCS #1 v1.5 (c'est ce que fait
+OpenSSL quand on demande un chiffrement RSA).  Demandez une ChipWhisperer-pro
+aux ingénieurs support de l'équipe pédagogique puis mettez en oeuvre une 
+attaque de votre choix pour récuperer le texte clair.  
+
+Voici la clef publique :
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0u0LwPCWMF6QcfDCEmuP
+Y3UnIbYQvdxy9Kw19KZYqsFfoSKFrH0zHkhFD1AEPBBGXFYwVoZMBr4m1zIoKd7v
+UhHHSlj8QbApBWxnMdq5qtU1hZHU03d5Ei4Jya5iCyJxUmfpSNPtmfJyvYujpzAt
+WulaJ6I+DtshhgDkDqY+GKyKuE2w0pcItwBZK06vYXN0CLoSl+1nOdhrHV7cH9qb
+qTSgcoYKKOp7nmaqbJxovRB9N5y4M9VFr4f7WvDP5DcT/n6mnQzP4kNRrvklbCuv
+ekBcapX0uhvMVhQms989dQXQRGk4Id5fyUd92X2toR6nIvYSfMWdGuDor8i4SdcF
+8QIDAQAB
+-----END PUBLIC KEY-----
+
+
+Voici le chiffré :
+RSA-CIPHERTEXT = 9047d7cf843ad6d282d49b98f7a3c0ce683a43e50e75b3a79986d0f9af497f3b8c0cbf49aa06c0a1b30de2885a34c6eb8141ebc8f25b253278d0925b6ec46648c951187563587b1be64555075c717ed1878345489c6798d211547ce8f7bfa1b9a955b4317e562c883d5986183d9664e7a9f52e92aebda1f34043d73d53f422fae8d3e2ab5ea1aa81c6b5bce19095dcb11842bf490303720d177f0251ba08705dbcda333f61c462e2a3dc38db3bfbdad4652719e07c320dea8b68ead80cf546e45286475c218a5b6037ebec7d6183173e9535ae9bb6c8007c1d2ea78617d7946dc825bd49708f3adf958b21997a64a208ebd239e5426a369cbb1ffee4a228b547

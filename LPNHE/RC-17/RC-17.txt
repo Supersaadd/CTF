@@ -1,0 +1,16 @@
+>>> Rc-17
+Vous penetrez dans un petit bureau de chercheur plus chaleureux.  Il y a des 
+reproductions de gravures du maître japonais Utagawa Hiroshige (歌川広重), avec 
+de grandes vagues bleues et de superbes vues du mont Fuji en arrière-plan.
+
+Ici se trouve un brouillon d'un article de recherche.
+
+>>> regarder brouillon
+- Introduction
+- Généralités sur la mécanique quantique
+- Spécification de l'accélérateur de particules
+- Téléportation d'information quantique à puissance nominale
+- Conjecture : univers parallèles
+- Travaux à venir : téléportation de matière à puissance maxi
+- Conclusion et remerciements
+

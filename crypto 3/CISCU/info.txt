@@ -1,0 +1,31 @@
+En résumé, ce laptop effectue (une des étapes) de la signature RSA, mais il
+n'accepte pas forcément de signer tout et n'importe quoi.
+
+Pour commencer, pour obtenir une signature correcte (c.a.d. qui vérifie avec
+la clef publique en utilisant OpenSSL), il faut appliquer soi-même l'encodage
+PKCS#1 v1.5.  Ensuite, la programme va effectuer la dernière étape
+(l'élévation à la puissance d modulo N, où d est la clef secrète). La spec
+de la signature RSA PKCS#1 v1.5 se trouve à la bibliothèque.
+
+Une bonne manière d'appréhender le problème, c'est de commencer par faire
+signer n'importe quoi puis de vérifier que les signatures sont valides.
+
+Conseil général pour la mise au point  essayer d'abord avec une paire de
+clef qu'on a fabriquée soi-même et pour laquelle on connaît tout plutôt que
+d'utiliser le serveur comme une boite noire qui dit ``NON''.
+
+Ensuite, pour faire signer ce qui nous intéresse, on peut exploiter la
+***malléabilité*** de RSA.
+
+Concrètement 
+- on soumet (M * x**e) mod N, pour un x aléatoire.  Ceci "masque" M au serveur.
+- le serveur renvoie (M * x**e)**d == (M**d) * (x**ed) == x * M**d mod N.
+- il suffit d'éliminer le ``masque'' x (en multipliant par l'inverse de x
+  modulo N) et on obtient M**d mod N, c'est-à-dire la signature voulue.
+
+
+Public Key
+N = 00bed6cdc8f142d61854b6bddc6f9eb36bbbf4e5dab77207240078293c384eb53d4e3a0b2f250d6dd1192448973b250d563517218c90a12c0447f5b31df37410d8a2e21573c0f05a8aa9924114708053b08878d3b53ccd35ba3516c02c3692d048ad46e98b7fbe13a99b4670fcc96dd51e7a04a3da93493ab5b5b0ff7ae77708d74f8c964112523fed59c1bdc949bfea248ff0a39285302b0292a6b8de23f98a920135cf1b5660e16eb4fddbb24b4312ef5c59f4a02a67dff2b28a6d1b0c3e3942c1736faa43a94f0995e04bda6c873a1cbaf6685424196abc6185d3e40fc1cc276fae72de0465d9748e6eb7e165b62800a53f2c67e4693cc92b37a9ee4bc449e9
+e = 65537
+
+

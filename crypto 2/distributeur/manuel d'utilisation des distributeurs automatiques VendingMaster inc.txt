@@ -1,0 +1,33 @@
+Cet épais manuel (environ 570 pages) décrit de manière détaillée toutes les
+procédures de remplissage, nettoyage, paramétrage du paiement, etc. pour les
+distributeurs automatiques de friandises qu'on trouve partout sur le campus.
+Version courte : pour accéder au menu de réglage, il suffit de taper "ADMIN"
+puis d'entrer le mot de passe.  À toutes fin utiles, voici le mot de passe
+(chiffré avec les clefs publiques des trois développeurs) :
+
+    - sandra68:    3a5cfdfb5181d1f5b3a3e5de85ef7b7916830857a68d9451f1c87872a1490ae59a0d73977f78b01c5243c040d43f832ba4f72767fba8c59dbeb8c22aa5a464a77239790f07c9fdeb2e7487a077dee0d9fbdfae7f8084edae22669aeca2985dd640bc393d9982fc3c5ee29c2d2e182227f4db00b3db3d3f521e1642c58635a14aac86b3f3dd10739d8193265a0d6ec28b08fdac2e4dde07eeafb2b13129c3a0b9f0dde4840e2e056c57d6fe5938b15190e91bb60844f9b8ef8748269729ed6986c4a74df030ac2c6b22b0667312c40db09ba42b18751001a6e24196ead6a1cae3cfc20106ac402824a2160dc153a0710f330f51a040c23b64ada89bd70010c3bd
+    - robinkelley: 8de6f65bf47be1523e0e9d1d5223d64e07cac829c9967efef0c7aaf572e52a7edac9fbabb049f2af80c11479cf1e101476011a752008fea17a979c246c91d10653b4142633fa10b1703db9091f143955a73905a8c3516f17e464b862a1b0f91ec6262c1077dbb483706ec5dc76b48c0c26b62fb3366962aa621e9946f4bef979e56ddd8c4b3d4a0e483af60b7b7f4a9c01c7326ce379aeaf0100a02d0a24d0263f7b49446c9f61fc508213fbfdb4429264227604514d91016cd9d2aa4df351d7c75b25948dcba6bb5dcca264f854ab4b25aedc2a7cac4078ccecee9031e8745e74d1af4361489e0b7211a46e01009b054ae7dc7359a072f5d4f43617a2a63eeb
+    - michael31:   8a3a6a081999322ac4c38de628e03651be06c6d72d5514014195add6ee6311b441c5ad8aeaaf4c1aca1a27d1860ce2219b084720c6eaa633e37b553a82a98f48ae8037514e9c4dfed0ef562f273c11339434ffe372d51f3da2b8f5c11358f988b6765b2101312b0d91997182613abbdd0607477e0784292f2951c5b26eb3e6b1f24bb502fe9c84dda7439c9e24fb15ad0a93b6ec2ac874bcc93574753b55d00f48eb42819dca177cfb6b83c353a7bf8d180c2e2a63a8f147110f0575ae5870893626859ea5d729fee2075b999e12e14cf43f5f7d0999c80ea6eaa1bfd00e346cd342b21902fc4e0892517171d3715bc1c8be8be9aded3f680a9b7720f0de2684
+
+>>> conseil distri
+Il y a une commande ADMIN, qui demande un mot de passe.  Vous avez ce mot
+de passe, mais chiffré par trois clef publiques différentes.  Commencez
+par récupérer puis examiner les trois clefs publiques.  Qu'on-t-elle de
+spécial ?
+
+
+>>> conseil distri
+En utilisant le théorème des restes chinois (CRT), il est possible de 
+calculer l'entier m**3 (PAS modulo n).  Partant de là, récupérer m consiste
+à calculer une racine cubique.  (m est l'encodage PKCS#1 v1.5 du mot de
+passe, donc il y a du charabia au début et le mot de passe à la fin).
+
+
+>>> conseil distri
+Calculer la racine cubique d'un nombre aussi grand (environ 2000 chiffres)
+ne peut pas se faire avec les fonctions usuelles qui travaillent sur des
+flottants avec seulement 64 bits de précision (soit ça va échouer, soit le
+résultat sera faux).  À la place, on peut utiliser la méthode de Newton,
+(cf. Wikipédia) pour le calcul des racines n-ièmes, en effectuant les 
+opérations sur des entiers (donc en faisant des divisions euclidiennes
+tout le temps).

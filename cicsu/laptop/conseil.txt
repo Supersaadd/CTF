@@ -1,0 +1,28 @@
+>>> auditorium
+C'est un grand amphi d'environ 400 places, un peu en pente.  Il n'y a 
+personne.  Le vidéo-projecteur est encore allumé et projette un rectangle
+bleu "NO SIGNAL" sur l'énorme écran.  Sur l'espace juste devant des tables
+servaient à faire des démonstrations techniques de projets de recherche.
+
+Ici se trouve un liste des exposés pour les 25 ans de l'ISIR.
+Ici se trouve un laptop sur le pupitre devant l'écran.
+Ici se trouve un webservice d'initiation à la détection de fraude bancaire.
+
+>>> laptop
+
+>>> conseil laptop
+En résumé, ce laptop effectue (une des étapes) de la signature RSA, mais il
+n'accepte pas forcément de signer tout et n'importe quoi.
+
+
+>>> conseil laptop
+Pour commencer, pour obtenir une signature correcte (c.a.d. qui vérifie avec
+la clef publique en utilisant OpenSSL), il faut appliquer soi-même l'encodage
+PKCS#1 v1.5.  Ensuite, la programme va effectuer la dernière étape 
+(l'élévation à la puissance d modulo N, où d est la clef secrète). La spec 
+de la signature RSA PKCS#1 v1.5 se trouve à la bibliothèque.
+
+
+>>> conseil laptop
+Une bonne manière d'appréhender le problème, c'est de commencer par faire 
+signer n'importe quoi puis de vérifier que les signatures sont valides.

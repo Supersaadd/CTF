@@ -1,0 +1,35 @@
+
+>>> RC-13
+Vous êtes dans un petit bureau de chercheur anonyme.  Pas d'affaires personnelles, 
+pas de déco.  En fait, il y a une table, une chaise, quelques affaires de travail 
+et c'est tout.
+
+Ici se trouve un post-it sur la porte.
+Ici se trouve un ordinateur fixe sur le bureau.
+Ici se trouve un feuillet imprimé.
+
+>>> regarder post-it
+Un post-it rose collé sur la porte.  Il dit :
+        aitana56, combien de fois t'ai-je dit de ne pas choisir ton mot de passe
+        dans le Cambridge English Dictionary ? Tu n'apprends jamais rien !
+        Comment je suis censé faire respecter une politique de securité, moi, tu y penses ?
+        ---
+        L'administrateur système
+
+>>> refarder feuillet
+Rien ne se passe...
+
+>>> regarder feuillet
+Une feuille A4, 80g/m².  Un utilisateur a imprimé dessus une trace du protocole 
+d'authentification CHAP.  Peut-être qu'il essayait de mettre au point un client
+personnalisé pour se connecter ? Il y a écrit :
+---> {"jsonrpc": "2.0", "method": "protagonist.CHAP-challenge", "params": {"world_id": "d343cb82d21ababf0556521216fe53d8", "username": "aitana56"}, "id": 661}
+<--- {"jsonrpc": "2.0", "result": "U2FsdGVkX18E6NLYBkJXQ1g921zevQSUrE9RXeJ444pfQgG7npXZk+/tXLBEfvhc\n", "id": 661}
+---> {"jsonrpc": "2.0", "method": "protagonist.CHAP-response", "params": {"world_id": "d343cb82d21ababf0556521216fe53d8", "response": "cooed prigs doper draws morts"}, "id": 662}
+<--- {"jsonrpc": "2.0", "result": null, "id": 662}
+
+>>> 
+
+
+user aitana56
+code anticipation

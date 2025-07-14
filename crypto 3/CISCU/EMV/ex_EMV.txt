@@ -1,0 +1,34 @@
+transaction:
+  data: |
+    {"cardholder": "Melissa Mason", "card-number": "8152-6693-4817-5011", "bank-name": "Cunningham-Gomez", "currency": "EUR", "amount": 953}
+  signature: 304402203985175d3b4735e7a6cd1dab956dfbcc364fcfc594ba886314144aa645254e6a02202df200cbff2d36410daf89b78b8bfd0065e5f1d39b0994bd2d082c8cde4d3e45
+  valid: True
+  card:
+    number: 8152-6693-4817-5011
+    certificate: |
+       -----BEGIN CERTIFICATE-----
+       MIIBJDCB16ADAgECAhRgkL11qSom+Xk8NUmEiklsmJrwXTAFBgMrZXAwGzEZMBcG
+       A1UEAwwQQ3VubmluZ2hhbS1Hb21lejAeFw0yMzA0MDMxNDM2MjJaFw0yNDA0MDIx
+       NDM2MjJaMB4xHDAaBgNVBAMMEzgxNTItNjY5My00ODE3LTUwMTEwVjAQBgcqhkjO
+       PQIBBgUrgQQACgNCAASQ+CegvcxoUON6w0W0q5qDrx67U/M9+OGAQqfDQwnzwe38
+       tT7o5Xc2zEpOyyNGVV+BGqF5VLeUGnyZ+ABxhOGpMAUGAytlcANBAJ0QsiM0xWzC
+       /dTVcPNVnaucryzxlMR0BxLggySTxYGITy4SlQebFr3Upm0uMPAJjrTJ/iK40Ipy
+       wBJTocye5Aw=
+       -----END CERTIFICATE-----
+    bank:
+      name: Cunningham-Gomez
+      certificate: |
+        -----BEGIN CERTIFICATE-----
+        MIICJjCCAQ6gAwIBAgIUFQ2RPio7m9XOj57gwXz2tJT/AzMwDQYJKoZIhvcNAQEL
+        BQAwETEPMA0GA1UEAwwGX19DQV9fMB4XDTIzMDQwMzE0MzYyMloXDTI0MDQwMjE0
+        MzYyMlowGzEZMBcGA1UEAwwQQ3VubmluZ2hhbS1Hb21lejAqMAUGAytlcAMhAILM
+        5YpbbTc76PrbZ4D1XbQ6QjOS9NzZqP/ZnOxf7gq5o2YwZDAdBgNVHQ4EFgQUK99m
+        k4M3EvpxBa+gYGiHPTU5A2QwHwYDVR0jBBgwFoAUjgg+jb0nrrPySeqebMs9RevQ
+        ko4wEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAYYwDQYJKoZIhvcN
+        AQELBQADggEBACBok6vIXw+jIQHs4jWl/NyQdKnJV9KrJ6yvtAU2yop680ihldKJ
+        HObbWzprsAVGyXGKtKa5sZa8yr7r2zup0dhs1VPCVZvK9Up1TXcaYFEvzCE9Ckwu
+        T6HI9Mq0hEZeNGo8wxztzL89mAbwTdawH4rwgyfzSxI1mwqN4V1tngW8/rGf/9QQ
+        +WuOjwbl/u7rNFtPSGN/hfQVYOe2NXMHZrjN67/gGJCzdNbabHtJx1YNa0MYekZb
+        I2Z+MZ3PA/t/oZP6fs8OyrkBPO3skXz+g7PqPWvjB3g5OMAK925/hnZvmQfChbff
+        4dMPqWAfy9yqHKBBKakQhUILGwonwDWoAVM=
+        -----END CERTIFICATE-----

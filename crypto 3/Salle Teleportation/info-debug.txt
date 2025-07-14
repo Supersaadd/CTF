@@ -1,0 +1,8 @@
+[ITEM DEBUG]>>> panneau
+[debug] protagonist.username(world_id='36a951fd25aa094fec4ce1bd6f1bd508')
+[debug] room.find-by-name(world_id='36a951fd25aa094fec4ce1bd6f1bd508', name='LPNHE_TELEPORT_ROOM')
+[debug] room.items(world_id='36a951fd25aa094fec4ce1bd6f1bd508', room='928cff7837aba7c6e751c90b9a9c904d')
+[debug] item.name(world_id='36a951fd25aa094fec4ce1bd6f1bd508', item='77888ac9f8658db18d09b372c47ad267')
+[debug] item.title(world_id='36a951fd25aa094fec4ce1bd6f1bd508', item='77888ac9f8658db18d09b372c47ad267')
+[debug] world.pnj(world_id='36a951fd25aa094fec4ce1bd6f1bd508')
+[debug] item.find-by-name(world_id="36a951fd25aa094fec4ce1bd6f1bd508'", name='LPNHE_TRIANGLE_KEY')

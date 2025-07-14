@@ -1,0 +1,825 @@
+Last login: Sat Mar 15 12:21:19 on ttys001
+(base) Saad@Saad-3 ~ % cd Desktop/SUPERSAAD/univ/M1/S2/ISEc  
+(base) Saad@Saad-3 ISEc % python3 client.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Extended client detected!!!
+
+[Lower brain functions initialized]
+
+Vous êtes dans un local poubelle.  Il fait tout noir. Il y a des néons au
+plafond, mais ils sont éteints.  Seul un éclairage d'urgence de faible
+intensité, au niveau du sol, éclaire un peu la pièce.  Le sol et les murs
+sont couverts de carrelage, probablement pour faciliter le nettoyage. Une
+porte équipée d'une barre anti-panique donne sur une autre pièce.
+
+Ici se trouvent des déchets.
+Ici se trouve un conteneur-poubelle.
+Ici se trouve une inscription sur le sol.
+
+>>> sortir
+Vous êtes dans une sorte d'atelier, assez haut de plafond.  Toujours pas
+de fenêtre.  Malgré la faible intensité de l'éclairage d'urgence, vous
+distinguez une espèce de grande trappe dans le plafond.  Elle est fermée.
+Le mur ouest porte une inscription à moitié illisible à cause de l'obscurité :
+        _     _   _     ___  _     __ __ ____         __ _  _ _ _ _        _  
+   /    /  __/ ___|   __| |   | __  |    \        _   _| _ _ |          \ 
+    _    |              |     |  _  | |_)    /     |   |   |     |        
+ /  __    __  |_ _    __|    _|  ___   _ <  / _    | | | |     |_| |      
+ _     _\ ___  _  |__ __ _    |___ _ _| \_\ _/   \_\_    _  _| __ /|    _\
+
+En dessous, il y a une porte blindée bardée de panneaux avec des pictogrammes
+en forme d'éclair, de point d'exclamation, de tête de mort...  Et la mention : 
+"portez un casque et des lunettes de protection".  Vous avisez aussi deux autres 
+portes : une porte la mention "local poubelle" tandis que l'autre est surmontée 
+d'une lampe qui indique une sortie de secours.
+
+Ici se trouve un interrupteur sur le mur.
+Ici se trouve une inscription sur la porte blindée.
+
+>>> sortir
+Vous êtes dans un couloir très sombre, orienté nord-sud.  Sur un des murs 
+vous distinguez une rangée de néon éteints, mais l'éclairage d'urgence au 
+niveau du sol, lui, est opérationnel.  Au plafond, il y a des passages de 
+cables, des conduits d'aérations, des canalisations, etc.  Quelques portes 
+fermées à clef donnent on ne sait où.  Deux portes palières donnent sur les 
+extrémités nord et sud du couloir.  Il y a aussi une porte marquée "trappe 
+d'accès" au milieu du couloir (côté ouest).
+
+Ici se trouve un plan interactif.
+
+>>> ouest
+Vous êtes dans une sorte d'atelier, assez haut de plafond.  Toujours pas
+de fenêtre.  Malgré la faible intensité de l'éclairage d'urgence, vous
+distinguez une espèce de grande trappe dans le plafond.  Elle est fermée.
+Le mur ouest porte une inscription à moitié illisible à cause de l'obscurité :
+        _     _   _     ___  _     __ __ ____         __ _  _ _ _ _        _  
+   /    /  __/ ___|   __| |   | __  |    \        _   _| _ _ |          \ 
+    _    |              |     |  _  | |_)    /     |   |   |     |        
+ /  __    __  |_ _    __|    _|  ___   _ <  / _    | | | |     |_| |      
+ _     _\ ___  _  |__ __ _    |___ _ _| \_\ _/   \_\_    _  _| __ /|    _\
+
+En dessous, il y a une porte blindée bardée de panneaux avec des pictogrammes
+en forme d'éclair, de point d'exclamation, de tête de mort...  Et la mention : 
+"portez un casque et des lunettes de protection".  Vous avisez aussi deux autres 
+portes : une porte la mention "local poubelle" tandis que l'autre est surmontée 
+d'une lampe qui indique une sortie de secours.
+
+Ici se trouve un interrupteur sur le mur.
+Ici se trouve une inscription sur la porte blindée.
+
+>>> ouest
+Vous êtes dans une grande pièce complètement obscure.  Avec le peu de lumière qui 
+vient de l'extérieur, vous distinguez un gros fatras de machines étranges.  
+On dirait que des dispositifs expérimentaux de physique des particules ont 
+été entassés ici depuis des générations.  Là-dedans, vous distinguez quand 
+même quelques objets.  Il y a deux portes à l'est et à l'ouest surmontées de
+lampes indiquant une sortie de secours. 
+
+Ici se trouve un dispositif expérimental étrange au milieu de la pièce.
+Ici se trouve un pied-de-biche.
+Ici se trouve un terminal posé sur un bureau.
+
+>>> terminal
+
+Vous entendez un bruit électrique derrière vous.
+
+La machine bizarre qui se trouve au milieu de la pièce est maintenant sous tension !
+
+
+
+Vous ne reconnaissez plus la pièce où vous étiez.
+
+En fait, vous avez été téléporté ! Incroyable !
+
+Vous êtes sur une voie de desserte couverte orientée Nord-Sud qui vous évoque 
+un parking de centre commercial abandonné. Elle est suffisament grande pour 
+qu'un petit camion puisse passer.  Certaines dalles du faux plafond sont tombées.
+À certains endroits il s'est même complètement effondré.
+Vous apercevez un mur rouge et une grande porte en fer vers le sud.  À travers 
+on voit enfin la lumière du jour !  Le mur côté Est est en briques rouges, avec 
+des poteaux en béton blanc disposés régulièrement.  C'est très calme et très
+silencieux.  Une porte verrouillée porte le logo :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.            `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888888                         
+                                 .d88P888d888b.                   
+                             .od888P" 888P "Y88b                  
+                            d88P"     888    888                  
+                            888"      Y88b  d88P                 
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+[security engine - INFO] status update
+                             subject: saad
+                             location:
+                               floor: SB
+>>> plan
+
+>>> nord
+Vous arrivez à une intersection entre une voie de circulation intérieure 
+orientée Nord-Sud et une autre qui part vers l'Est.  Un panneau "sortie" 
+pointe vers l'Est.  Une gaine de ventilation métallique passe près du faux 
+plafond, et vous entendez un bruit de soufflerie.  Une porte donne sur un
+autre local poubelle (encore un !).  Sur le mur a été peint en gros :
+                         
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.     d8888           `8,
+               d'           d88P  Y88b   d8P888            `b
+                                   888  d8P 888                  
+                                 .d88P d8P  888                  
+                             .od888P" d88   888                  
+                            d88P"     8888888888                 
+                            888"            888                 
+               Y,           888888888       888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Vous êtes sur une voie de circulation couverte orientée Nord-Sud.  Sur le mur 
+Ouest, une grande porte en fer bloque l'accès à une pièce obscure.  À côté se
+trouve un petit panneau indiquant : 
+                        "Trappe d'accès accélérateur".  
+Le faux plafond défoncé est un lointain écho des nombreux passages de camions 
+de livraison.  Côté Est, deux bâtiments délimitent un petit jardin non dénué de 
+charme et qu'on peut traverser.  En tout cas, ça fait du bien de voir la 
+lumière du jour !  À travers les fenêtres d'un des bâtiments on peut apercevoir 
+une batterie d'étranges machines.  En levant la tête on voit une passerelle 
+conduisant à l'espace de la vie étudiante, mais on ne peut pas y aller d'ici.
+
+
+>>> nord
+Vous êtes à une intersection.  La voie de circulation couverte part vers le 
+Nord et vers le Sud.  D'ici on peut traverser le petit jardinet qui se trouve 
+à l'Est, ou bien prendre le passage couvert abritant un parking à vélo qui se 
+trouve à l'Ouest.  Sur un mur, il a été peint en gros :
+                        
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888     .d88P                 
+                                 .d88P    8888"                  
+                             .od888P"      "Y8b.                 
+                            d88P"     888    888                 
+                            888"      Y88b  d88P                
+               Y,           888888888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> nord
+Ici de gros poteaux en bétons contraignent les véhicules à rester sur la voie
+de circulation couverte orientée Nord-Sud, tandis que les piétons peuvent 
+passer à travers pour aller dans le petit jardin qui se trouve à l'Ouest.
+Ici y a de petits bambous et quelques autres espèces de plantes.  On voit le
+ciel d'ici, ça change.  À travers les fenêtres des bâtiments, on voit 
+des machines-outils et des équipements expérimentaux de physique ou de chimie.
+
+
+>>> nord
+Ici, la voie de circulation couverte se termine par un cul de sac : elle donne 
+sur une grande porte en fer... qui est fermée.  Côté Est, les piétons peuvent 
+accéder à un petit jardinet d'où on voir le ciel.  Là se trouve l'entrée 
+d'un bâtiment.  Au-dessus de la porte un panneau annonce :
+                          L      P      N      H      E
+                            a      h      u      a      n 
+                            b      y      c      u      e
+                            o      s      l      t      r                       
+                            r      i      é      e      g                 
+                            a      q      a      s      i                 
+                            t      u      i             e                
+                            o      e      r             s                
+                            i             e                             
+                            r                                          
+                            e                                          
+ De l'autre côté, sur le mur une inscription est peinte :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888       888                 
+                                 .d88P     .d88P                 
+                             .od888P"  .od888P"                  
+                            d88P"     d88P"                      
+                            888"      888"                      
+               Y,           888888888 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> LPNHE
+Vous êtes dans le hall d'entrée du labo.  Cette pièce permet l'acceuil du
+public, de groupes scolaires, etc.  Il y a des posters de vulgarisation un
+peu partout.  Le guichet d'accueil est vacant.  Un couloir donne vers le sud.
+
+Ici se trouve un terminal à diposition du public.
+Ici se trouve un Poster explicatif.
+
+[security engine - INFO] knowledge base update
+                             subject: saad
+                             nature: threat
+                             level: medium
+>>> terminal
+[security engine - INFO] new security objective
+                             subject: saad
+                             objective: monitor
+>>> 
+>>> Poster
+Rien ne se passe...
+
+>>> regarder Poster
+Il s'agit d'une affiche de propagande à destination du grand public qui
+visiterait le labo et qui s'intéresserait au terminal juste à côté.
+      
+      "ce dispositif innovant communique grâce à la téléportation
+       d'information quantique --- il est relié directement à nos 
+       dispositifs de pointe installés au sous-sol.  Si des dimensions 
+       parallèles existaient, les modèles actuels de la physique 
+       prédisent qu'on pourrait communiquer avec grâce à ce procédé !".
+
+>>> plan
+
+>>> sud
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> ascenseur
+ELEVATOR DISABLED BY SECURITY ENGINE
+
+>>> sas
+Code incorrect.
+
+>>> RC-13
+Vous êtes dans un petit bureau de chercheur anonyme.  Pas d'affaires personnelles, 
+pas de déco.  En fait, il y a une table, une chaise, quelques affaires de travail 
+et c'est tout.
+
+Ici se trouve un post-it sur la porte.
+Ici se trouve un ordinateur fixe sur le bureau.
+Ici se trouve un feuillet imprimé.
+
+>>> post-it
+Rien ne se passe...
+
+>>> regarder post-it
+Un post-it rose collé sur la porte.  Il dit :
+        aitana56, combien de fois t'ai-je dit de ne pas choisir ton mot de passe
+        dans le Cambridge English Dictionary ? Tu n'apprends jamais rien !
+        Comment je suis censé faire respecter une politique de securité, moi, tu y penses ?
+        ---
+        L'administrateur système
+
+>>> regarder ordinateur
+Un PC fixe tout droit issu du marché public passé par le CNRS auprès d'une
+grande firme de la tech qui fournit ce genre de produit en grande quantité.
+
+>>> regarder feuillet
+Une feuille A4, 80g/m².  Un utilisateur a imprimé dessus une trace du protocole 
+d'authentification CHAP.  Peut-être qu'il essayait de mettre au point un client
+personnalisé pour se connecter ? Il y a écrit :
+---> {"jsonrpc": "2.0", "method": "protagonist.CHAP-challenge", "params": {"world_id": "61c22644e69d03ded2d3a4e3dded1fc4", "username": "aitana56"}, "id": 869}
+<--- {"jsonrpc": "2.0", "result": "U2FsdGVkX1+saGXt08lRxr8cjeubs9yxEVq57pOccDHQiMACaA458PmFxJxEB6dG\n", "id": 869}
+---> {"jsonrpc": "2.0", "method": "protagonist.CHAP-response", "params": {"world_id": "61c22644e69d03ded2d3a4e3dded1fc4", "response": "masts abide socle eclat ogres"}, "id": 870}
+<--- {"jsonrpc": "2.0", "result": null, "id": 870}
+
+>>> sortir
+Vous êtes dans un couloir d'un genre assez commun sur le campus.  Celui-ci
+est orienté nord-sud. Quelques bureaux sont ouverts (les RC-13, RC-14, RC-17 
+et RC-19).
+
+Ici se trouve un ascenseur.
+Ici se trouve un sas sécurisé de la salle d'expériences.
+
+>>> conseil sas
+Vous pouvez obtenir des indications avec cette commande.
+
+Sans argument, cette commande vous suggérera une tâche à accomplir.
+
+Avec le nom d'un objet en argument, la commande vous donnera des conseils de plus en
+plus précis pour vous aider à acquérir ou à utiliser l'objet en question.
+
+Si vous avez bien compris, vous pouvez ré-essayer.
+
+>>> conseil sas
+Je ne sais vraiment pas quoi vous dire.
+
+>>> conseil sécurité
+Les tâches les plus faciles sont au LPNHE.
+
+>>> conseil sécurité
+Les tâches les plus faciles sont au LPNHE.
+
+>>> conseil sas
+Je ne sais vraiment pas quoi vous dire.
+
+>>> conseil sas
+Je ne sais vraiment pas quoi vous dire.
+
+>>> plan
+
+>>> nord
+Vous êtes dans le hall d'entrée du labo.  Cette pièce permet l'acceuil du
+public, de groupes scolaires, etc.  Il y a des posters de vulgarisation un
+peu partout.  Le guichet d'accueil est vacant.  Un couloir donne vers le sud.
+
+Ici se trouve un terminal à diposition du public.
+Ici se trouve un Poster explicatif.
+
+>>> nord
+Impossible depuis cet endroit
+
+>>> sortit
+Il n'y a pas de SORTIT
+
+>>> sortir
+Ici, la voie de circulation couverte se termine par un cul de sac : elle donne 
+sur une grande porte en fer... qui est fermée.  Côté Est, les piétons peuvent 
+accéder à un petit jardinet d'où on voir le ciel.  Là se trouve l'entrée 
+d'un bâtiment.  Au-dessus de la porte un panneau annonce :
+                          L      P      N      H      E
+                            a      h      u      a      n 
+                            b      y      c      u      e
+                            o      s      l      t      r                       
+                            r      i      é      e      g                 
+                            a      q      a      s      i                 
+                            t      u      i             e                
+                            o      e      r             s                
+                            i             e                             
+                            r                                          
+                            e                                          
+ De l'autre côté, sur le mur une inscription est peinte :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                   888       888                 
+                                 .d88P     .d88P                 
+                             .od888P"  .od888P"                  
+                            d88P"     d88P"                      
+                            888"      888"                      
+               Y,           888888888 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> plan
+
+>>> est
+Vous êtes au pied d'une tour sur laquelle est écrit :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P       888                 
+                                8888"      .d88P                 
+                                 "Y8b. .od888P"                  
+                            888    888d88P"                      
+                            Y88b  d88P888"                      
+               Y,            "Y8888P" 888888888            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici, la voie de circulation se termine par un cul de sac : elle est barrée
+par une grande porte en fer qui est verrouillée.  Côté Ouest se trouve un
+petit jardinet de bambous avec de petits arbres.  À travers les fenêtres 
+des bâtiments adjascents, vous voyez de gros équipements expérimentaux de 
+physique ou de chimie, vous  ne savez pas.  Sur une porte fermée, un panneau
+proclame : "Accès interdit sans autorisation" et "Si vous devez intervenir 
+SEUL à l'intérieur de cette salle EQUIPEZ-VOUS de l'emetteur d'alarme DATI".   
+
+Ici se trouve un ascenseur.
+
+>>> sud
+La voie de circulation couverte continue vers le Nord et vers le Sud.  À l'Est 
+se trouve un mur en béton désespérément gris.  Vers l'Ouest, on peut traverser 
+un petit jardinet pentu dans lequel prospèrent bambous, lierre et autres mousses. 
+
+Ici se trouve un graffiti sur un pilier.
+
+>>> sud
+Vous êtes à une intersection.  De gros poteaux en béton contraignent les 
+véhicules à rester sur la voie de circulation couverte orientée Nord-Sud, 
+mais les piétons eux peuvent emprunter le passage couvert qui conduit vers 
+une cour côté Est, ou bien aller dans le petit jardinet où poussent quelques 
+bouleaux côté Ouest.  Un mur peint en gris porte la mention :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'           .d8888b.  .d8888b.           `8,
+               d'           d88P  Y88bd88P  Y88b           `b
+                                 .d88P     .d88P                 
+                                8888"     8888"                  
+                                 "Y8b.     "Y8b.                 
+                            888    888888    888                 
+                            Y88b  d88PY88b  d88P                
+               Y,            "Y8888P"  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> est
+Vous êtes dans une cour en longueur avec des dalles en granite.  Des bancs, 
+en granite eux aussi, alternent en quinconce avec des bouleaux au pied desquels
+pousse du lierre.  Ici, on voit le ciel, et même un petit bout de la tour 
+centrale.  Au Nord, le mur est recouvert de lierre, et il est traversé par un 
+passage qui conduit vers le Tipi.  Dans cette direction, à travers certaines 
+fenêtres on voit des équipements de physique ou de chimie.  Côté Sud, on voit 
+la bibliothèque à travers les baies vitrées.  Un autre passage couvert conduit 
+vers l'Est.  Juste à côté, un escalier qui conduisait à l'étage du dessus a 
+été démonté et gît par terre.  En regardant vers le haut, on voit la tour 43 
+vers le Nord-Est et la tour 33 vers le Nord-Ouest.  Un dernier passage couvert 
+conduit vers l'Ouest.
+
+
+>>> plan
+
+>>> nord
+Le passage couvert donne sur la cour du Tipi.  Il se termine par une grille de 
+chantier facile à franchir.  Mais la cour du tipi elle-même est un cul de sac, 
+et le tipi est fermé.
+
+
+>>> conseil tipi
+Les tâches les plus faciles sont au LPNHE.
+
+>>> sud
+Vous êtes dans une cour en longueur avec des dalles en granite.  Des bancs, 
+en granite eux aussi, alternent en quinconce avec des bouleaux au pied desquels
+pousse du lierre.  Ici, on voit le ciel, et même un petit bout de la tour 
+centrale.  Au Nord, le mur est recouvert de lierre, et il est traversé par un 
+passage qui conduit vers le Tipi.  Dans cette direction, à travers certaines 
+fenêtres on voit des équipements de physique ou de chimie.  Côté Sud, on voit 
+la bibliothèque à travers les baies vitrées.  Un autre passage couvert conduit 
+vers l'Est.  Juste à côté, un escalier qui conduisait à l'étage du dessus a 
+été démonté et gît par terre.  En regardant vers le haut, on voit la tour 43 
+vers le Nord-Est et la tour 33 vers le Nord-Ouest.  Un dernier passage couvert 
+conduit vers l'Ouest.
+
+
+>>> plan
+
+>>> est
+Vous êtes dans un petit passage couvert qui sépare deux cours.  Au Sud, une
+porte vitrée donne sur le hall d'entrée de la bibliothèque.  En face, un 
+passage donne sur une rotonde qui ceinture le pied d'une tour peinte en rouge
+et marquée :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888  .d8888b.           `8,
+               d'              d8P888 d88P  Y88b           `b
+                              d8P 888      .d88P                 
+                             d8P  888     8888"                  
+                            d88   888      "Y8b.                 
+                            8888888888888    888                 
+                                  888 Y88b  d88P                
+               Y,                 888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> sud
+Vous êtes dans le hall d'entrée de la bibliothèque des licences.  Vous voyez
+l'intérieur à travers les portes vitrées qui vous en séparent : il n'y a personne.  
+Les portes sont fermées et vous ne pouvez pas entrer.  L'éclairage est tamisé et
+les bancs en mousse rouge et mauves sont étonnamment confortables.  Ca vous donne
+envie d'y faire une petite sieste, mais le distributeur de friandise à l'Est du
+hall fait un bruit désagréable.
+
+Ici se trouve un distributeur de friandises et de gadgets.
+Ici se trouve un catalogue électronique.
+
+>>> est
+Impossible depuis cet endroit
+
+>>> distributeur
+Crédit insuffisant.
+
+>>> distributeur
+
+>>> 14
+Impossible depuis cet endroit
+
+>>> distributeur
+Crédit insuffisant.
+
+>>> distributeur
+Crédit insuffisant.
+
+>>> distributeur
+Produit indisponible (stock épuisé).
+
+>>> catalogue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                         +-----------------------------+
+                                                                                         | Unknown command "récupérer" |
+                                                                                         +-----------------------------+
+
+>>> 
+Merci de vous exprimer clairement et de fournir un complément d'objet direct (valide).
+
+>>> prendre
+Merci de vous exprimer clairement et de fournir un complément d'objet direct (valide).
+
+>>> distributeur
+Crédit insuffisant.
+
+>>> catalogue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                         +-----------------------------+
+                                                                                         | Unknown command "prendre 3" |
+                                                                                         +-----------------------------+
+
+>>> conseil catalogue
+Vous pouvez vous connecter avec le protocole CHAP pour accéder à plus de livres.
+
+>>> conseil distributeur
+Commencez par lire le mode d'emploi qui est à la bibliothèque.
+
+>>> plan
+
+>>> sud
+Impossible depuis cet endroit
+
+>>> plan
+
+>>> nord
+Vous êtes dans un petit passage couvert qui sépare deux cours.  Au Sud, une
+porte vitrée donne sur le hall d'entrée de la bibliothèque.  En face, un 
+passage donne sur une rotonde qui ceinture le pied d'une tour peinte en rouge
+et marquée :
+
+                         ,agd"                 "bg,
+                      ,gdP"                      "Ybg,
+                    ,dP"                            "Yb,
+                  ,dP"                                "Yb,
+                 ,8"                                    "8,
+                ,8'                                      `8,
+               ,8'              d8888  .d8888b.           `8,
+               d'              d8P888 d88P  Y88b           `b
+                              d8P 888      .d88P                 
+                             d8P  888     8888"                  
+                            d88   888      "Y8b.                 
+                            8888888888888    888                 
+                                  888 Y88b  d88P                
+               Y,                 888  "Y8888P"            ,P
+               `8,                                        ,8'
+                `8,                                      ,8'
+                 `8a                                    a8'
+                  `Yba                                adP'
+                    "Yba                             adY"
+                      `"Yba,                     ,adP"'
+                         `"Y8                  8P"'
+
+Ici se trouve un ascenseur.
+
+>>> plan
+
+>>> conseil bibli
+Il n'y a pas de BIBLI
+Les tâches les plus faciles sont au LPNHE.
+
+>>> conseil bibliotèque
+Il n'y a pas de BIBLIOTÈQUE
+Les tâches les plus faciles sont au LPNHE.
+
+>>> conseil distri
+Il n'y a pas de DISTRI
+Les tâches les plus faciles sont au LPNHE.
+
+>>> bibliotèque
+Il n'y a pas de BIBLIOTÈQUE
+
+>>> sud
+Vous êtes dans le hall d'entrée de la bibliothèque des licences.  Vous voyez
+l'intérieur à travers les portes vitrées qui vous en séparent : il n'y a personne.  
+Les portes sont fermées et vous ne pouvez pas entrer.  L'éclairage est tamisé et
+les bancs en mousse rouge et mauves sont étonnamment confortables.  Ca vous donne
+envie d'y faire une petite sieste, mais le distributeur de friandise à l'Est du
+hall fait un bruit désagréable.
+
+Ici se trouve un distributeur de friandises et de gadgets.
+Ici se trouve un catalogue électronique.
+Ici se trouve un stylo-bille.
+Ici se trouve un Cambridge English dictionary.
+
+>>> regarder Cambridge
+C'est un post-it qui dit : "le dictionnaire est trop gros pour être livré
+par les drones bibliothécaires ; une édition électronique est disponible
+sur le web à l'adresse : https://m1.tme-crypto.fr/words".
+
+>>> stylo
+Rien ne se passe...
+
+>>> prendre stylo
+OK
+
+>>> regarder catalogue
+C'est un PC posé sur une petite table qui permet de consulter le catalogue de
+la bibliothèque.
+
+>>> 

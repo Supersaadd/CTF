@@ -1,0 +1,71 @@
+import hashlib
+
+def key_expansion(seed : bytes) -> bytes:
+     """
+     Renvoie 256 bits pseudo-aléatoires à partir de seed
+     """
+     state = seed
+     output = b''
+     for i in range(8):
+         state = hashlib.sha256(state).digest()
+         output += state[:4]
+     return output
+
+
+IV_string = "7164208358feb26c3a40ff2e603404b5"
+IV = bytes.fromhex(IV_string)
+
+for i in range (0,65536):
+    seed = i.to_bytes(2, byteorder='big')
+    key_material = key_expansion(seed)
+    K = key_material[0:16]
+    IV2 = key_material[16:32]
+    #print(type(IV2),"\n")
+
+    if IV == IV2:
+        K_hex = K.hex()
+        print(K_hex)
+
+
+K = "d19922d119258f425f26d7f607b9558b"
+
+"""La stratégie consiste à essayer toutes les graînes possibles, calculer la clef,
+calculer l'IV, vérifier si l'IV est le bon (le cas échéant la clef est bonne
+aussi), puis déchiffrer et profiter."""
+
+"""
+IV = 7164208358feb26c3a40ff2e603404b5
+
+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
+"""

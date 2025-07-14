@@ -1,0 +1,198 @@
+Last login: Thu Mar 20 16:50:20 on ttys010
+(base) Saad@Saad-3 ~ % cd Desktop/SUPERSAAD/univ/M1/S2/ISEC
+(base) Saad@Saad-3 ISEC % ls
+1er etage	bibli		crypto 3	private_key.pem	signature.bin
+LPNHR		certificate.pem	csr.pem		public_key2.pem	tme1.py
+TD		client.py	dechiffrer.py	public_key3.pem	tme2.py
+annale		cours		doc.docx	reserve		venv
+atrium.txt	crypto 2	plan		secret_key.pem
+(base) Saad@Saad-3 ISEC % python3 client.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Extended client detected!!!
+
+[Lower brain functions initialized]
+
+Vous êtes dans un local poubelle.  Il fait tout noir. Il y a des néons au
+plafond, mais ils sont éteints.  Seul un éclairage d'urgence de faible
+intensité, au niveau du sol, éclaire un peu la pièce.  Le sol et les murs
+sont couverts de carrelage, probablement pour faciliter le nettoyage. Une
+porte équipée d'une barre anti-panique donne sur une autre pièce.
+
+Ici se trouvent des déchets.
+Ici se trouve un conteneur-poubelle.
+Ici se trouve une inscription sur le sol.
+
+>>> sortir
+Vous êtes dans une sorte d'atelier, assez haut de plafond.  Toujours pas
+de fenêtre.  Malgré la faible intensité de l'éclairage d'urgence, vous
+distinguez une espèce de grande trappe dans le plafond.  Elle est fermée.
+Le mur ouest porte une inscription à moitié illisible à cause de l'obscurité :
+        _     _   _     ___  _     __ __ ____         __ _  _ _ _ _        _  
+   /    /  __/ ___|   __| |   | __  |    \        _   _| _ _ |          \ 
+    _    |              |     |  _  | |_)    /     |   |   |     |        
+ /  __    __  |_ _    __|    _|  ___   _ <  / _    | | | |     |_| |      
+ _     _\ ___  _  |__ __ _    |___ _ _| \_\ _/   \_\_    _  _| __ /|    _\
+
+En dessous, il y a une porte blindée bardée de panneaux avec des pictogrammes
+en forme d'éclair, de point d'exclamation, de tête de mort...  Et la mention : 
+"portez un casque et des lunettes de protection".  Vous avisez aussi deux autres 
+portes : une porte la mention "local poubelle" tandis que l'autre est surmontée 
+d'une lampe qui indique une sortie de secours.
+
+Ici se trouve un interrupteur sur le mur.
+Ici se trouve une inscription sur la porte blindée.
+
+>>> sprtir
+Il n'y a pas de SPRTIR
+
+>>> sortir
+Vous êtes dans un couloir très sombre, orienté nord-sud.  Sur un des murs 
+vous distinguez une rangée de néon éteints, mais l'éclairage d'urgence au 
+niveau du sol, lui, est opérationnel.  Au plafond, il y a des passages de 
+cables, des conduits d'aérations, des canalisations, etc.  Quelques portes 
+fermées à clef donnent on ne sait où.  Deux portes palières donnent sur les 
+extrémités nord et sud du couloir.  Il y a aussi une porte marquée "trappe 
+d'accès" au milieu du couloir (côté ouest).
+
+Ici se trouve un plan interactif.
+
+>>> ouest
+Vous êtes dans une sorte d'atelier, assez haut de plafond.  Toujours pas
+de fenêtre.  Malgré la faible intensité de l'éclairage d'urgence, vous
+distinguez une espèce de grande trappe dans le plafond.  Elle est fermée.
+Le mur ouest porte une inscription à moitié illisible à cause de l'obscurité :
+        _     _   _     ___  _     __ __ ____         __ _  _ _ _ _        _  
+   /    /  __/ ___|   __| |   | __  |    \        _   _| _ _ |          \ 
+    _    |              |     |  _  | |_)    /     |   |   |     |        
+ /  __    __  |_ _    __|    _|  ___   _ <  / _    | | | |     |_| |      
+ _     _\ ___  _  |__ __ _    |___ _ _| \_\ _/   \_\_    _  _| __ /|    _\
+
+En dessous, il y a une porte blindée bardée de panneaux avec des pictogrammes
+en forme d'éclair, de point d'exclamation, de tête de mort...  Et la mention : 
+"portez un casque et des lunettes de protection".  Vous avisez aussi deux autres 
+portes : une porte la mention "local poubelle" tandis que l'autre est surmontée 
+d'une lampe qui indique une sortie de secours.
+
+Ici se trouve un interrupteur sur le mur.
+Ici se trouve une inscription sur la porte blindée.
+
+>>> ouest
+Vous êtes dans une grande pièce complètement obscure.  Avec le peu de lumière qui 
+vient de l'extérieur, vous distinguez un gros fatras de machines étranges.  
+On dirait que des dispositifs expérimentaux de physique des particules ont 
+été entassés ici depuis des générations.  Là-dedans, vous distinguez quand 
+même quelques objets.  Il y a deux portes à l'est et à l'ouest surmontées de
+lampes indiquant une sortie de secours. 
+
+Ici se trouve un dispositif expérimental étrange au milieu de la pièce.
+Ici se trouve un pied-de-biche.
+Ici se trouve un terminal posé sur un bureau.
+
+>>> terminal
+
+
+
+
+
+
+
+
+
+                                UGLIX v4.0 beta                                 
+                     (Experimental Device Control Terminal)                     
+
+
+                                   CHAP login                                   
+                                   ----------                                   
+        username:  saad                            
+        challenge: U2FsdGVkX1+PsGJcILCSt39hKgyzic55mojKvDHHwFjM9HO7xhm8TQKxubNxP+fv
+
+        response:                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
